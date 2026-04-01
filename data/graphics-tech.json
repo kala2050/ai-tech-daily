@@ -1,0 +1,283 @@
+{
+  "updatedAt": "2026-04-01T06:50:28.163Z",
+  "total": 22,
+  "items": [
+    {
+      "id": "a31a5cf5-a691-47e2-8abd-293461251d98",
+      "title": "Abstraction in Style",
+      "summary": "Artistic styles often embed abstraction beyond surface appearance, involving deliberate reinterpretation of structure rather than mere changes in texture or color. Conventional style transfer methods typically preserve the input geometry and therefore struggle to capture this deeper abstraction beha",
+      "category": "graphics-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29924v1",
+      "publishedAt": "2026-03-31T15:59:55Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "af28448d-6753-41a0-9a33-dceea4b3e737",
+      "title": "Datadog uses Codex for system-level code review",
+      "summary": "OpenAI and Datadog brand graphic with the OpenAI wordmark on the left, the Datadog logo on the right, and a central abstract brown fur-like texture panel on a white background.",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/datadog",
+      "publishedAt": "Fri, 09 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "2dfb4ae8-620f-4a8d-bd92-99d0b7f56728",
+      "title": "AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs",
+      "summary": "AMD and OpenAI have announced a multi-year partnership to deploy 6 gigawatts of AMD Instinct GPUs, beginning with 1 gigawatt in 2026, to power OpenAI’s next-generation AI infrastructure and accelerate",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/openai-amd-strategic-partnership",
+      "publishedAt": "Mon, 06 Oct 2025 06:00:00 GMT",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "4ddb7122-b407-474f-b4a6-8b5a3ff6c46a",
+      "title": "Introducing Stargate UK",
+      "summary": "OpenAI, NVIDIA, and Nscale launch Stargate UK, a sovereign AI infrastructure partnership delivering up to 50,000 GPUs and the UK’s largest supercomputer to power national AI innovation, public service",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-stargate-uk",
+      "publishedAt": "Tue, 16 Sep 2025 14:30:00 GMT",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "d3fd7e01-9837-49c7-90c9-3557dc0d33ad",
+      "title": "Introducing Triton: Open-source GPU programming for neural networks",
+      "summary": "We’re releasing Triton 1.0, an open-source Python-like programming language which enables researchers with no CUDA experience to write highly efficient GPU code—most of the time on par with what an ex",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/triton",
+      "publishedAt": "Wed, 28 Jul 2021 07:00:00 GMT",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "2f4009aa-0b03-4d38-be3b-d18cefa6bb52",
+      "title": "OpenAI Microscope",
+      "summary": "We’re introducing OpenAI Microscope, a collection of visualizations of every significant layer and neuron of eight vision “model organisms” which are often studied in interpretability. Microscope make",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/microscope",
+      "publishedAt": "Tue, 14 Apr 2020 07:00:00 GMT",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "5aed899e-4c34-4d4e-b183-37df1c591046",
+      "title": "Extensions and limitations of the neural GPU",
+      "summary": "Extensions and limitations of the neural GPU",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/extensions-and-limitations-of-the-neural-gpu",
+      "publishedAt": "Wed, 02 Nov 2016 07:00:00 GMT",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "d48bd9f7-9c8d-4fff-a186-08e0bb581b93",
+      "title": "Stream High-Fidelity Spatial Computing Content to Any Device with NVIDIA CloudXR 6.0",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Workstation-CloudXr-768x432.jpg\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Decorative image.\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"a",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/stream-high-fidelity-spatial-computing-content-to-any-device-with-nvidia-cloudxr-6-0/",
+      "publishedAt": "2026-03-31T18:14:50.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "2f4332e1-1f8b-4a46-a6a7-502605e0f401",
+      "title": "Maximize AI Infrastructure Throughput by Consolidating Underutilized GPU Workloads",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/CUDA-MPS-e1765825617242-768x432.webp\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" loadin",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/maximize-ai-infrastructure-throughput-by-consolidating-underutilized-gpu-workloads/",
+      "publishedAt": "2026-03-25T16:35:43.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "5cd4b26e-ce12-4adb-a5ed-f5d2e6048a0c",
+      "title": "NVIDIA RTX Innovations Are Powering the Next Era of Game Development",
+      "summary": "<img width=\"600\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/foliage-mountain-gif.gif\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" loading=\"lazy\" src",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/nvidia-rtx-innovations-are-powering-the-next-era-of-game-development/",
+      "publishedAt": "2026-03-10T15:30:00.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "9e5aacae-7e94-4573-8003-2e3d590d1943",
+      "title": "CUDA 13.2 Introduces Enhanced CUDA Tile Support and New Python Features",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/cube-768x432.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"htt",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/cuda-13-2-introduces-enhanced-cuda-tile-support-and-new-python-features/",
+      "publishedAt": "2026-03-09T21:13:18.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "2f786ee1-e9b8-42a3-ab5d-45c38c18ea0e",
+      "title": "cuTile.jl Brings NVIDIA CUDA Tile-Based Programming to Julia",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/JuliaHub-768x432.jpg\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"JuliaHub logo.\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" loading=",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/cutile-jl-brings-nvidia-cuda-tile-based-programming-to-julia/",
+      "publishedAt": "2026-03-03T19:48:16.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "58381c4d-bec4-4a18-ad6a-87b2089c9804",
+      "title": "5 New Digital Twin Products Developers Can Use to Build 6G Networks",
+      "summary": "<img width=\"768\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/image6-768x431.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"A 3D visualization of a digital twin of a city.\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbna",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/5-new-digital-twin-products-developers-can-use-to-build-6g-networks/",
+      "publishedAt": "2026-03-01T07:00:00.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "0c642c9e-40d9-4360-a620-8f476c18d2ee",
+      "title": "Accelerating Data Processing with NVIDIA Multi-Instance GPU and NUMA Node Localization",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/multicolored-bulging-cube-1-768x432.jpg\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" loa",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/accelerating-data-processing-with-nvidia-multi-instance-gpu-and-numa-node-localization/",
+      "publishedAt": "2026-02-19T17:30:00.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "2ecc5074-5423-4fc1-81d1-2f2d97b1ee7c",
+      "title": "Topping the GPU MODE Kernel Leaderboard with NVIDIA cuda.compute",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/cuda-compute-gpu-mode-768x432.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" loading=\"",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/topping-the-gpu-mode-kernel-leaderboard-with-nvidia-cuda-compute/",
+      "publishedAt": "2026-02-18T17:00:00.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "aecb801a-d281-49b6-aa57-f21aeebef71d",
+      "title": "Advancing GPU Programming with the CUDA Tile IR Backend for OpenAI Triton",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/abstract-image-green-square-overlay-768x432.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"as",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/advancing-gpu-programming-with-the-cuda-tile-ir-backend-for-openai-triton/",
+      "publishedAt": "2026-01-30T20:01:47.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "5e1ff7ca-736e-407e-9b66-e0a2920f644c",
+      "title": "Ensuring Balanced GPU Allocation in Kubernetes Clusters with Time-Based Fairshare",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/run-ai-768x432.jpg\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"h",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/ensuring-balanced-gpu-allocation-in-kubernetes-clusters-with-time-based-fairshare/",
+      "publishedAt": "2026-01-28T17:00:00.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "06bcef62-9dab-417c-a6d6-b5b81bcce668",
+      "title": "Scaling NVFP4 Inference for FLUX.2 on NVIDIA Blackwell Data Center GPUs",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/nvidia-gb300-nvl72-768x432.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" loading=\"laz",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/scaling-nvfp4-inference-for-flux-2-on-nvidia-blackwell-data-center-gpus/",
+      "publishedAt": "2026-01-22T19:21:07.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "fe80d599-7040-44b3-a806-b10ccfcaca69",
+      "title": "Streamlining CUB with a Single-Call API",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers-768x432-jpg.webp\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/streamlining-cub-with-a-single-call-api/",
+      "publishedAt": "2026-01-21T21:28:00.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "c1c7ce3f-54d2-4b44-8709-62a2caa24ed3",
+      "title": "How to Write High-Performance Matrix Multiply in NVIDIA CUDA Tile",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/colored-squares-graphic-768x432-png.webp\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" lo",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/how-to-write-high-performance-matrix-multiply-in-nvidia-cuda-tile/",
+      "publishedAt": "2026-01-14T20:41:37.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "2afc3d56-e336-4667-b56a-dd0378c1badf",
+      "title": "Real-Time Decoding, Algorithmic GPU Decoders, and AI Inference Enhancements in NVIDIA CUDA-Q QEC",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/CUDAQ-QEC-1-768x432.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Decorative image.\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" lo",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/real-time-decoding-algorithmic-gpu-decoders-and-ai-inference-enhancements-in-nvidia-cuda-q-qec/",
+      "publishedAt": "2025-12-17T21:32:50.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    },
+    {
+      "id": "e98596eb-6439-450c-bd65-cf6072bdd267",
+      "title": "Migrate Apache Spark Workloads to GPUs at Scale on Amazon EMR with Project Aether",
+      "summary": "<img width=\"768\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/12/GPU-migration-1-e1765989442231-768x431.webp\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Decorative image.\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\"",
+      "category": "graphics-tech",
+      "sourceType": "industry",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/migrate-apache-spark-workloads-to-gpus-at-scale-on-amazon-emr-with-project-aether/",
+      "publishedAt": "2025-12-17T19:00:00.000Z",
+      "collectedAt": "2026-04-01T06:50:28.128Z",
+      "tags": []
+    }
+  ]
+}

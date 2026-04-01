@@ -1,0 +1,1451 @@
+{
+  "updatedAt": "2026-04-01T08:27:47.752Z",
+  "total": 100,
+  "items": [
+    {
+      "id": "cadc7867-6719-4bf1-9493-829229f9da17",
+      "title": "HapCompass: A Rotational Haptic Device for Contact-Rich Robotic Teleoperation",
+      "summary": "The contact-rich nature of manipulation makes it a significant challenge for robotic teleoperation. While haptic feedback is critical for contact-rich tasks, providing intuitive directional cues within wearable teleoperation interfaces remains a bottleneck. Existing solutions, such as non-directiona",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30042v1",
+      "publishedAt": "2026-03-31T17:57:52Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.RO",
+        "cs.HC",
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "73b9230e-c0d0-4e31-a0e2-1b267e926d08",
+      "title": "Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations",
+      "summary": "Automatic parallelization remains a challenging problem in software engineering, particularly in identifying code regions where loops can be safely executed in parallel on modern multi-core architectures. Traditional static analysis techniques, such as dependence analysis and polyhedral models, ofte",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30040v1",
+      "publishedAt": "2026-03-31T17:54:27Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.SE",
+        "cs.AI",
+        "cs.SE"
+      ]
+    },
+    {
+      "id": "139bea67-56aa-4faa-9e22-bff9cb9bb227",
+      "title": "Benchmarking PhD-Level Coding in 3D Geometric Computer Vision",
+      "summary": "AI-assisted coding has rapidly reshaped software practice and research workflows, yet today's models still struggle to produce correct code for complex 3D geometric vision. If models could reliably write such code, the research of our community would change substantially. To measure progress toward",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30038v1",
+      "publishedAt": "2026-03-31T17:50:55Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "0b7e5b67-b1a5-481a-8eb1-851c9c89004a",
+      "title": "Reward-Based Online LLM Routing via NeuralUCB",
+      "summary": "This study investigates the use of NeuralUCB for cost-aware large language model (LLM) routing. Existing routing approaches can be broadly grouped into supervised routing methods and partial-feedback methods, each with different tradeoffs in efficiency and adaptivity. We implement a NeuralUCB-based",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30035v1",
+      "publishedAt": "2026-03-31T17:35:34Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.LG",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "60c4887f-e9b5-433c-b47c-593510c26d8a",
+      "title": "Tucker Attention: A generalization of approximate attention mechanisms",
+      "summary": "The pursuit of reducing the memory footprint of the self-attention mechanism in multi-headed self attention (MHA) spawned a rich portfolio of methods, e.g., group-query attention (GQA) and multi-head latent attention (MLA). The methods leverage specialized low-rank factorizations across embedding di",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30033v1",
+      "publishedAt": "2026-03-31T17:30:51Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "f82e1877-e12a-4acd-bf99-bcbb519461fb",
+      "title": "ContextClaim: A Context-Driven Paradigm for Verifiable Claim Detection",
+      "summary": "Verifiable claim detection asks whether a claim expresses a factual statement that can, in principle, be assessed against external evidence. As an early filtering stage in automated fact-checking, it plays an important role in reducing the burden on downstream verification components. However, exist",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30025v1",
+      "publishedAt": "2026-03-31T17:20:46Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CL",
+        "cs.CL"
+      ]
+    },
+    {
+      "id": "7b045025-b8a2-4947-bb4d-0a75f03b94e7",
+      "title": "Hybrid Framework for Robotic Manipulation: Integrating Reinforcement Learning and Large Language Models",
+      "summary": "This paper introduces a new hybrid framework that combines Reinforcement Learning (RL) and Large Language Models (LLMs) to improve robotic manipulation tasks. By utilizing RL for accurate low-level control and LLMs for high level task planning and understanding of natural language, the proposed fram",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30022v1",
+      "publishedAt": "2026-03-31T17:19:34Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.RO",
+        "cs.AI",
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "ed61ff45-e6d2-4599-8e7e-3dbbbcae2209",
+      "title": "Refined Detection for Gumbel Watermarking",
+      "summary": "We propose a simple detection mechanism for the Gumbel watermarking scheme proposed by Aaronson (2022). The new mechanism is proven to be near-optimal in a problem-dependent sense among all model-agnostic watermarking schemes under the assumption that the next-token distribution is sampled i.i.d.",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30017v1",
+      "publishedAt": "2026-03-31T17:16:27Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.LG",
+        "cs.CR",
+        "stat.ML",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "177d741a-0179-4c49-8af0-ab62bf8b3b1a",
+      "title": "Tracking Equivalent Mechanistic Interpretations Across Neural Networks",
+      "summary": "Mechanistic interpretability (MI) is an emerging framework for interpreting neural networks. Given a task and model, MI aims to discover a succinct algorithmic process, an interpretation, that explains the model's decision process on that task. However, MI is difficult to scale and generalize. This",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30002v1",
+      "publishedAt": "2026-03-31T16:57:52Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.LG",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "bf0ee207-2e09-4e3c-8c35-e674381a0cec",
+      "title": "SurgNavAR: An Augmented Reality Surgical Navigation Framework for Optical See-Through Head Mounted Displays",
+      "summary": "Augmented reality (AR) devices with head mounted displays (HMDs) facilitate the direct superimposition of 3D preoperative imaging data onto the patient during surgery. To use an HMD-AR device as a stand-alone surgical navigation system, the device should be able to locate the patient and surgical in",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29990v1",
+      "publishedAt": "2026-03-31T16:54:30Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "957ff438-1764-429f-b64b-a7beac89ef5c",
+      "title": "Structural Feature Engineering for Generative Engine Optimization: How Content Structure Shapes Citation Behavior",
+      "summary": "The proliferation of AI-powered search engines has shifted information discovery from traditional link-based retrieval to direct answer generation with selective source citation, creating new challenges for content visibility. While existing Generative Engine Optimization (GEO) approaches focus prim",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29979v1",
+      "publishedAt": "2026-03-31T16:41:43Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CL",
+        "cs.HC",
+        "cs.IR",
+        "cs.CL"
+      ]
+    },
+    {
+      "id": "2b7db98e-ebc9-4b8b-8fb3-eb067a289b5b",
+      "title": "Quantifying Cross-Modal Interactions in Multimodal Glioma Survival Prediction via InterSHAP: Evidence for Additive Signal Integration",
+      "summary": "Multimodal deep learning for cancer prognosis is commonly assumed to benefit from synergistic cross-modal interactions, yet this assumption has not been directly tested in survival prediction settings. This work adapts InterSHAP, a Shapley interaction index-based metric, from classification to Cox p",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29977v1",
+      "publishedAt": "2026-03-31T16:39:56Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "q-bio.QM",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "e1ae4240-b7eb-4110-8ba4-f4914bf256f5",
+      "title": "Meteorology-Driven GPT4AP: A Multi-Task Forecasting LLM for Atmospheric Air Pollution in Data-Scarce Settings",
+      "summary": "Accurate forecasting of air pollution is important for environmental monitoring and policy support, yet data-driven models often suffer from limited generalization in regions with sparse observations. This paper presents Meteorology-Driven GPT for Air Pollution (GPT4AP), a parameter-efficient multi-",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29974v1",
+      "publishedAt": "2026-03-31T16:37:06Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.LG",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "b9c555a3-1e17-4cb9-973c-6193af6bd225",
+      "title": "Do covariates explain why these groups differ? The choice of reference group can reverse conclusions in the Oaxaca-Blinder decomposition",
+      "summary": "Scientists often want to explain why an outcome is different in two groups. For instance, differences in patient mortality rates across two hospitals could be due to differences in the patients themselves (covariates) or differences in medical care (outcomes given covariates). The Oaxaca--Blinder de",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29972v1",
+      "publishedAt": "2026-03-31T16:34:48Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "stat.ME",
+        "cs.LG",
+        "econ.EM",
+        "stat.ML",
+        "stat.ME"
+      ]
+    },
+    {
+      "id": "3d156016-1cff-46c6-ba94-c7f64052cae2",
+      "title": "Trimodal Deep Learning for Glioma Survival Prediction: A Feasibility Study Integrating Histopathology, Gene Expression, and MRI",
+      "summary": "Multimodal deep learning has improved prognostic accuracy for brain tumours by integrating histopathology and genomic data, yet the contribution of volumetric MRI within unified survival frameworks remains unexplored. This pilot study extends a bimodal framework by incorporating Fluid Attenuated Inv",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29968v1",
+      "publishedAt": "2026-03-31T16:32:22Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "a5a610a6-1548-4b3a-b76d-fb21f4d010b2",
+      "title": "Learning Structural-Functional Brain Representations through Multi-Scale Adaptive Graph Attention for Cognitive Insight",
+      "summary": "Understanding how brain structure and function interact is key to explaining intelligence yet modeling them jointly is challenging as the structural and functional connectome capture complementary aspects of organization. We introduced Multi-scale Adaptive Graph Network (MAGNet), a Transformer-style",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29967v1",
+      "publishedAt": "2026-03-31T16:32:15Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "27d5a412-ce7b-457d-9fd7-bf0dcb83aead",
+      "title": "Scaling Video Pretraining for Surgical Foundation Models",
+      "summary": "Surgical video understanding is essential for computer-assisted interventions, yet existing surgical foundation models remain constrained by limited data scale, procedural diversity, and inconsistent evaluation, often lacking a reproducible training pipeline. We propose SurgRec, a scalable and repro",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29966v1",
+      "publishedAt": "2026-03-31T16:31:25Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "7726b4fa-7342-407f-afe7-6d6833c9be40",
+      "title": "NeuroBRIDGE: Behavior-Conditioned Koopman Dynamics with Riemannian Alignment for Early Substance Use Initiation Prediction from Longitudinal Functional Connectome",
+      "summary": "Early identification of adolescents at risk for substance use initiation (SUI) is vital yet difficult, as most predictors treat connectivity as static or cross-sectional and miss how brain networks change over time and with behavior. We proposed NeuroBRIDGE (Behavior conditioned RIemannian Koopman D",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29960v1",
+      "publishedAt": "2026-03-31T16:24:59Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "a4a07cd3-865c-4be1-a838-47c0912466dc",
+      "title": "Structured Intent as a Protocol-Like Communication Layer: Cross-Model Robustness, Framework Comparison, and the Weak-Model Compensation Effect",
+      "summary": "How reliably can structured intent representations preserve user goals across different AI models, languages, and prompting frameworks? Prior work showed that PPS (Prompt Protocol Specification), a 5W3H-based structured intent framework, improves goal alignment in Chinese and generalizes to English",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29953v1",
+      "publishedAt": "2026-03-31T16:20:28Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.AI",
+        "cs.HC",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "cdd9550f-874b-42d2-b71d-b4894a24286b",
+      "title": "Physiological and Semantic Patterns in Medical Teams Using an Intelligent Tutoring System",
+      "summary": "Effective collaboration requires teams to manage complex cognitive and emotional states through Socially Shared Regulation of Learning (SSRL). Physiological synchrony (i.e., longitudinal alignment in physiological signals) can indicate these states, but is hard to interpret on its own. We investigat",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29950v1",
+      "publishedAt": "2026-03-31T16:18:57Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.AI",
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "4aa81e55-b265-4add-a1a9-c9fa6a5837a6",
+      "title": "Real-Time Explanations for Tabular Foundation Models",
+      "summary": "Interpretability is central for scientific machine learning, as understanding \\emph{why} models make predictions enables hypothesis generation and validation. While tabular foundation models show strong performance, existing explanation methods like SHAP are computationally expensive, limiting inter",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29946v1",
+      "publishedAt": "2026-03-31T16:17:09Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.LG",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "dc6eb2c3-6032-45b7-b897-b1848a146179",
+      "title": "EC-Bench: Enumeration and Counting Benchmark for Ultra-Long Videos",
+      "summary": "Counting in long videos remains a fundamental yet underexplored challenge in computer vision. Real-world recordings often span tens of minutes or longer and contain sparse, diverse events, making long-range temporal reasoning particularly difficult. However, most existing video counting benchmarks f",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29943v1",
+      "publishedAt": "2026-03-31T16:16:17Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "8ff8a870-9225-4b28-8a5d-4e5334531b9e",
+      "title": "XR is XR: Rethinking MR and XR as Neutral Umbrella Terms",
+      "summary": "The term XR is currently widely used as an expression encompassing Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR). However, there is no clear consensus regarding its origin or meaning. XR is sometimes explained as an abbreviation for Extended Reality, but multiple interpretatio",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29939v1",
+      "publishedAt": "2026-03-31T16:12:21Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.HC",
+        "cs.GR",
+        "cs.MM",
+        "cs.HC"
+      ]
+    },
+    {
+      "id": "551eb28d-eb7d-4a35-ad91-78251dd65e73",
+      "title": "Rewrite the News: Tracing Editorial Reuse Across News Agencies",
+      "summary": "This paper investigates sentence-level text reuse in multilingual journalism, analyzing where reused content occurs within articles. We present a weakly supervised method for detecting sentence-level cross-lingual reuse without requiring full translations, designed to support automated pre-selection",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29937v1",
+      "publishedAt": "2026-03-31T16:10:26Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CL",
+        "cs.IR",
+        "cs.CL"
+      ]
+    },
+    {
+      "id": "000e81b0-1740-4520-bc41-54ce9bff4587",
+      "title": "Bethe Ansatz with a Large Language Model",
+      "summary": "We explore the capability of a Large Language Model (LLM) to perform specific computations in mathematical physics: the task is to compute the coordinate Bethe Ansatz solution of selected integrable spin chain models. We select three integrable Hamiltonians for which the solutions were unpublished;",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29932v1",
+      "publishedAt": "2026-03-31T16:06:19Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cond-mat.stat-mech",
+        "cs.AI",
+        "hep-th",
+        "cond-mat.stat-mech"
+      ]
+    },
+    {
+      "id": "aefc4d79-22f4-43df-9577-f298463776da",
+      "title": "ScoringBench: A Benchmark for Evaluating Tabular Foundation Models with Proper Scoring Rules",
+      "summary": "Tabular foundation models such as TabPFN and TabICL already produce full predictive distributions yet prevailing regression benchmarks evaluate them almost exclusively via point estimate metrics RMSE R2 These aggregate measures often obscure model performance in the tails of the distribution a criti",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29928v1",
+      "publishedAt": "2026-03-31T16:01:56Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.AI",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "1f0d536f-280a-40dc-b6bf-5857356eff47",
+      "title": "End-to-End Image Compression with Segmentation Guided Dual Coding for Wind Turbines",
+      "summary": "Transferring large volumes of high-resolution images during wind turbine inspections introduces a bottleneck in assessing and detecting severe defects. Efficient coding must preserve high fidelity in blade regions while aggressively compressing the background. In this work, we propose an end-to-end",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29927v1",
+      "publishedAt": "2026-03-31T16:01:23Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "a456a9bc-2c0d-40a2-9cb0-59452210dcff",
+      "title": "Training deep learning based dynamic MR image reconstruction using synthetic fractals",
+      "summary": "Purpose: To investigate whether synthetically generated fractal data can be used to train deep learning (DL) models for dynamic MRI reconstruction, thereby avoiding the privacy, licensing, and availability limitations associated with cardiac MR training datasets. Methods: A training dataset was gene",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29922v1",
+      "publishedAt": "2026-03-31T15:59:40Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "40b8234c-57c3-4d6c-951f-6e16472e552e",
+      "title": "Diffusion-Based Feature Denoising with NNMF for Robust handwritten digit multi-class classification",
+      "summary": "This work presents a robust multi-class classification framework for handwritten digits that combines diffusion-driven feature denoising with a hybrid feature representation. Inspired by our previous work on brain tumor classification, the proposed approach operates in a feature space to improve the",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29917v1",
+      "publishedAt": "2026-03-31T15:57:18Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "c583745d-65c2-46a2-b8b0-c95579890462",
+      "title": "Uncertainty Gating for Cost-Aware Explainable Artificial Intelligence",
+      "summary": "Post-hoc explanation methods are widely used to interpret black-box predictions, but their generation is often computationally expensive and their reliability is not guaranteed. We propose epistemic uncertainty as a low-cost proxy for explanation reliability: high epistemic uncertainty identifies re",
+      "category": "ai-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29915v1",
+      "publishedAt": "2026-03-31T15:56:10Z",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "cs.AI",
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "9674d830-c8b6-457d-a093-b55be2f772a1",
+      "title": "Accelerating the next phase of AI",
+      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "publishedAt": "Tue, 31 Mar 2026 13:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "8a558d99-2577-4f31-8961-ac669ebbb409",
+      "title": "STADLER reshapes knowledge work at a 230-year-old company",
+      "summary": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/stadler",
+      "publishedAt": "Fri, 27 Mar 2026 22:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "4bfe2606-020a-4601-892d-cf7e1cbaf517",
+      "title": "Inside our approach to the Model Spec",
+      "summary": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/our-approach-to-the-model-spec",
+      "publishedAt": "Wed, 25 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "76cf58dd-5d95-47f6-aeb7-7e2356188b78",
+      "title": "Helping developers build safer AI experiences for teens",
+      "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+      "publishedAt": "Tue, 24 Mar 2026 11:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Safety"
+      ]
+    },
+    {
+      "id": "9db6937c-25b1-4f76-ab83-c41af7cc5343",
+      "title": "Update on the OpenAI Foundation",
+      "summary": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/update-on-the-openai-foundation",
+      "publishedAt": "Tue, 24 Mar 2026 09:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "24357614-2ed4-43b8-867a-a4b35db34140",
+      "title": "Powering product discovery in ChatGPT",
+      "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+      "publishedAt": "Tue, 24 Mar 2026 09:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "a7200036-e823-42f7-b831-3f63f4b8e2ae",
+      "title": "Creating with Sora Safely",
+      "summary": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approac",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/creating-with-sora-safely",
+      "publishedAt": "Mon, 23 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Safety"
+      ]
+    },
+    {
+      "id": "3c954b58-caa7-4de7-b704-bc464dc7c467",
+      "title": "OpenAI to acquire Astral",
+      "summary": "Accelerates Codex growth to power the next generation of Python developer tools",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-astral",
+      "publishedAt": "Thu, 19 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "578f3e4b-eca5-4338-9957-52920d3c5c15",
+      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+      "summary": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/japan-teen-safety-blueprint",
+      "publishedAt": "Tue, 17 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Safety"
+      ]
+    },
+    {
+      "id": "fd3f4578-06dd-4608-9045-b654dacc87ac",
+      "title": "Equipping workers with insights about compensation",
+      "summary": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
+      "publishedAt": "Tue, 17 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "b26d9349-c10f-4e6c-b024-a94b7d7a2244",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/wayfair",
+      "publishedAt": "Wed, 11 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "9e78dabe-b158-42c4-8ef2-9a8b40b4042e",
+      "title": "Improving instruction hierarchy in frontier LLMs",
+      "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/instruction-hierarchy-challenge",
+      "publishedAt": "Tue, 10 Mar 2026 11:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "d36951b5-01b8-4dac-8623-7dddce0ff472",
+      "title": "New ways to learn math and science in ChatGPT",
+      "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
+      "publishedAt": "Tue, 10 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "f3c284bc-6df6-4ed5-843e-086f59526944",
+      "title": "OpenAI to acquire Promptfoo",
+      "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-promptfoo",
+      "publishedAt": "Mon, 09 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "df30d5a8-4221-4df1-94a5-e4809d5c96ad",
+      "title": "How Descript enables multilingual video dubbing at scale",
+      "summary": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/descript",
+      "publishedAt": "Fri, 06 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Startup"
+      ]
+    },
+    {
+      "id": "e4309518-de0f-4899-a722-643f04c7c982",
+      "title": "GPT-5.4 Thinking System Card",
+      "summary": "GPT-5.4 Thinking System Card",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "publishedAt": "Thu, 05 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "3027c969-2bad-4ecc-aa74-e670a8a7c2a8",
+      "title": "Introducing GPT-5.4",
+      "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-4",
+      "publishedAt": "Thu, 05 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "70cb99c6-0904-4e6e-966a-ca7fba70df57",
+      "title": "Ensuring AI use in education leads to opportunity",
+      "summary": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/ai-education-opportunity",
+      "publishedAt": "Thu, 05 Mar 2026 09:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "798202ee-69e4-4622-a229-dc0e7910133f",
+      "title": "Introducing the Adoption news channel",
+      "summary": "Practical insights and frameworks to turn AI progress into business advantage",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "publishedAt": "Thu, 05 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "AI Adoption"
+      ]
+    },
+    {
+      "id": "89e50ae1-fe67-41d5-8604-14c679170bfa",
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/chatgpt-for-excel",
+      "publishedAt": "Thu, 05 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "d95da982-4d65-4509-a8e0-07b1a964abba",
+      "title": "The five AI value models driving business reinvention",
+      "summary": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "publishedAt": "Thu, 05 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "AI Adoption"
+      ]
+    },
+    {
+      "id": "dc578aaa-9a13-4855-889c-b60999c0dc31",
+      "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+      "summary": "By focusing on people, not pilots, the Bundesliga club is scaling efficiency, creativity, and knowledge—without losing its football identity.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/vfl-wolfsburg",
+      "publishedAt": "Thu, 05 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "62669ad7-afbb-4e8f-b357-0f8542c96a1e",
+      "title": "Extending single-minus amplitudes to gravitons",
+      "summary": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
+      "publishedAt": "Wed, 04 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "58ecbcce-5c3b-4505-a023-260e191dc4ff",
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "summary": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/gpt-5-3-instant",
+      "publishedAt": "Tue, 03 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "cb701c23-acad-4f25-91f4-0a7d94a3b820",
+      "title": "GPT-5.3 Instant System Card",
+      "summary": "GPT-5.3 Instant System Card",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/gpt-5-3-instant-system-card",
+      "publishedAt": "Tue, 03 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "e7b8274c-a123-4a46-92f3-64e41d3b9684",
+      "title": "Scaling AI for everyone",
+      "summary": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/scaling-ai-for-everyone",
+      "publishedAt": "Fri, 27 Feb 2026 05:30:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "5a0dad10-4558-4787-9de5-bee7ccf5ac8a",
+      "title": "Joint Statement from OpenAI and Microsoft",
+      "summary": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/continuing-microsoft-partnership",
+      "publishedAt": "Fri, 27 Feb 2026 05:30:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "0d56c227-7ea2-4869-ad6b-e65bb13f255f",
+      "title": "An update on our mental health-related work",
+      "summary": "OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/update-on-mental-health-related-work",
+      "publishedAt": "Fri, 27 Feb 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Safety"
+      ]
+    },
+    {
+      "id": "6c324b33-fe1d-4f6d-b269-25063c1542b1",
+      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+      "summary": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/figma-partnership",
+      "publishedAt": "Thu, 26 Feb 2026 06:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "9b7b94ff-e0ad-48f7-acaf-e8aa19c03f32",
+      "title": "Disrupting malicious uses of AI | February 2026",
+      "summary": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/disrupting-malicious-ai-uses",
+      "publishedAt": "Wed, 25 Feb 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "a850a40d-270c-4115-b5c5-e95a7fecd9d4",
+      "title": "Arvind KC appointed Chief People Officer",
+      "summary": "OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/arvind-kc-chief-people-officer",
+      "publishedAt": "Tue, 24 Feb 2026 13:40:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "31200da9-ed32-4f6d-9e9c-c4c558aecc60",
+      "title": "Why we no longer evaluate SWE-bench Verified",
+      "summary": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+      "publishedAt": "Mon, 23 Feb 2026 11:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "8de31461-33ff-487e-9e33-e00a66cf7280",
+      "title": "Advancing independent research on AI alignment",
+      "summary": "OpenAI commits $7.5M to The Alignment Project to fund independent AI alignment research, strengthening global efforts to address AGI safety and security risks.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/advancing-independent-research-ai-alignment",
+      "publishedAt": "Thu, 19 Feb 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "e642db06-9205-44f8-aa46-87fdde566d61",
+      "title": "Introducing OpenAI for India",
+      "summary": "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/openai-for-india",
+      "publishedAt": "Wed, 18 Feb 2026 21:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "b320400d-d84c-460f-94d9-534bbdceac5d",
+      "title": "GPT-5.2 derives a new result in theoretical physics",
+      "summary": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/new-result-theoretical-physics",
+      "publishedAt": "Fri, 13 Feb 2026 11:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "643c72cf-085a-46d5-bf99-1b4392d7fd5c",
+      "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+      "summary": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+      "publishedAt": "Fri, 13 Feb 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Safety"
+      ]
+    },
+    {
+      "id": "628293c5-2e1e-4bb2-ae8a-a328122538cd",
+      "title": "Scaling social science research",
+      "summary": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/scaling-social-science-research",
+      "publishedAt": "Fri, 13 Feb 2026 09:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "27f4c1a7-082f-49b2-833d-6747d41410ce",
+      "title": "Beyond rate limits: scaling access to Codex and Sora",
+      "summary": "How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/beyond-rate-limits",
+      "publishedAt": "Fri, 13 Feb 2026 09:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "2249bdeb-1939-47e2-a8e1-dbf6edb9ac86",
+      "title": "Introducing GPT-5.3-Codex-Spark",
+      "summary": "Introducing GPT-5.3-Codex-Spark—our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+      "publishedAt": "Thu, 12 Feb 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "72e90c23-be6b-4417-b4d4-f8ce53fdb182",
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "summary": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "publishedAt": "Mon, 09 Feb 2026 11:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "002508f8-8f2d-4917-b261-75f448fed296",
+      "title": "Testing ads in ChatGPT",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/testing-ads-in-chatgpt",
+      "publishedAt": "Mon, 09 Feb 2026 11:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "bfa2e8f2-337d-4674-bdd2-7d30d44bc830",
+      "title": "Making AI work for everyone, everywhere: our approach to localization",
+      "summary": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/our-approach-to-localization",
+      "publishedAt": "Fri, 06 Feb 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "7266a542-847b-4c71-a6f4-5c58d5adf972",
+      "title": "Introducing Trusted Access for Cyber",
+      "summary": "OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/trusted-access-for-cyber",
+      "publishedAt": "Thu, 05 Feb 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "9a5262d6-2f40-4ce5-8555-76468d653848",
+      "title": "Navigating health questions with ChatGPT",
+      "summary": "A family shares how ChatGPT helped them prepare for critical cancer treatment decisions for their son alongside expert guidance from his doctors.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/navigating-health-questions",
+      "publishedAt": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Brand Story"
+      ]
+    },
+    {
+      "id": "8e3a6168-b4d5-47d1-b06d-490abd499d7b",
+      "title": "The Sora feed philosophy",
+      "summary": "Discover the Sora feed philosophy—built to spark creativity, foster connections, and keep experiences safe with personalized recommendations, parental controls, and strong guardrails.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/sora-feed-philosophy",
+      "publishedAt": "Tue, 03 Feb 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "b642e290-4b94-473f-93e8-50ba743d79cc",
+      "title": "Inside OpenAI’s in-house data agent",
+      "summary": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/inside-our-in-house-data-agent",
+      "publishedAt": "Thu, 29 Jan 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "4f68cbea-3a10-46a8-83e9-c51695c66b88",
+      "title": "Taisei Corporation shapes the next generation of talent with AI",
+      "summary": "Taisei Corporation’s HR team is leading the rollout of ChatGPT Enterprise to drive AI-powered talent development across the organization.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/taisei",
+      "publishedAt": "Thu, 29 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.719Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "5ce0f5f2-08fb-4c93-af5d-dfbfa02efb1a",
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "summary": "On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mini, and OpenAI o4-mini from ChatGPT. In the API, t",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "publishedAt": "Thu, 29 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "310e7f85-e3f6-4f7f-9543-e22a8315d570",
+      "title": "EMEA Youth & Wellbeing Grant",
+      "summary": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "publishedAt": "Wed, 28 Jan 2026 01:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "aeea31f7-5940-4220-9227-fafb422b7206",
+      "title": "The next chapter for AI in the EU",
+      "summary": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "publishedAt": "Wed, 28 Jan 2026 01:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "2ac33c9b-db01-403d-bbcd-d29072d3ddbb",
+      "title": "PVH reimagines the future of fashion with OpenAI",
+      "summary": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/pvh-future-of-fashion",
+      "publishedAt": "Tue, 27 Jan 2026 06:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": []
+    },
+    {
+      "id": "84f6b311-4dc4-41a7-97da-7835cb40c598",
+      "title": "Introducing Prism",
+      "summary": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-prism",
+      "publishedAt": "Tue, 27 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "dc08bc84-2e91-4122-a7c1-b67996a438da",
+      "title": "How Indeed uses AI to help evolve the job search",
+      "summary": "Indeed’s CRO Maggie Hulce shares how AI is transforming job search, recruiting, and talent acquisition for employers and job seekers.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/indeed-maggie-hulce",
+      "publishedAt": "Mon, 26 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "4c55a928-cc96-4633-ab6c-7b760eb2e301",
+      "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
+      "summary": "An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/scaling-postgresql",
+      "publishedAt": "Thu, 22 Jan 2026 12:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "a1b574fd-bb0e-4b6a-8854-cdd5ca33ea48",
+      "title": "Inside Praktika's conversational approach to language learning",
+      "summary": "How Praktika uses GPT-4.1 and GPT-5.2 to build adaptive AI tutors that personalize lessons, track progress, and help learners achieve real-world language fluency",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/praktika",
+      "publishedAt": "Thu, 22 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Startup"
+      ]
+    },
+    {
+      "id": "10438527-1f11-407d-88c8-86e3fe7cbece",
+      "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
+      "summary": "A data-driven report on how workers across industries use ChatGPT—covering adoption trends, top tasks, departmental patterns, and the future of AI at work.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work",
+      "publishedAt": "Thu, 22 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": []
+    },
+    {
+      "id": "52fe4e8f-b35c-4196-b867-6e02b1f1b11e",
+      "title": "How Higgsfield turns simple ideas into cinematic social videos",
+      "summary": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/higgsfield",
+      "publishedAt": "Wed, 21 Jan 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "id": "82b133df-abd5-4091-9eaf-d70a3f114813",
+      "title": "How countries can end the capability overhang",
+      "summary": "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
+      "publishedAt": "Wed, 21 Jan 2026 01:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "fcf8fab6-95e6-434e-bfcb-375ecaf171a4",
+      "title": "Introducing Edu for Countries",
+      "summary": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/edu-for-countries",
+      "publishedAt": "Wed, 21 Jan 2026 01:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "9db69ab2-d6fb-4cda-98c2-75d019e786e8",
+      "title": "Horizon 1000: Advancing AI for primary healthcare",
+      "summary": "OpenAI and the Gates Foundation launch Horizon 1000, a $50M pilot advancing AI capabilities for healthcare in Africa. The initiative aims to reach 1,000 clinics by 2028.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/horizon-1000",
+      "publishedAt": "Tue, 20 Jan 2026 21:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "36a48a1e-3f4d-4811-b941-3ae3373ff131",
+      "title": "Stargate Community",
+      "summary": "Stargate Community plans detail a community-first approach to AI infrastructure, using locally tailored plans shaped by community input, energy needs, and workforce priorities.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/stargate-community",
+      "publishedAt": "Tue, 20 Jan 2026 19:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "fc6613dc-048f-4b79-9815-ea023383fa5b",
+      "title": "Our approach to age prediction",
+      "summary": "ChatGPT is rolling out age prediction to estimate if accounts are under or over 18, applying safeguards for teens and refining accuracy over time.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/our-approach-to-age-prediction",
+      "publishedAt": "Tue, 20 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Safety"
+      ]
+    },
+    {
+      "id": "dddbad21-afcf-499a-9eec-49e2d8f2f80d",
+      "title": "AI for self empowerment",
+      "summary": "How AI can expand human agency by closing the capability overhang—helping people, businesses, and countries unlock real productivity, growth, and opportunity.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/ai-for-self-empowerment",
+      "publishedAt": "Sun, 18 Jan 2026 12:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": []
+    },
+    {
+      "id": "999e8ffe-6296-4627-a5b8-2fe59ea216be",
+      "title": "A business that scales with the value of intelligence",
+      "summary": "OpenAI’s business model scales with intelligence—spanning subscriptions, API, ads, commerce, and compute—driven by deepening ChatGPT adoption.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence",
+      "publishedAt": "Sun, 18 Jan 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "1a055ba4-0d3f-4804-b383-cbdb2a77aa30",
+      "title": "The truth left out from Elon Musk’s recent court filing",
+      "summary": "The truth left out from Elon Musk’s recent court filing.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/the-truth-elon-left-out",
+      "publishedAt": "Fri, 16 Jan 2026 12:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": []
+    },
+    {
+      "id": "9d9e8f6f-67fa-4240-af1b-0c20ef2b4d70",
+      "title": "Introducing ChatGPT Go, now available worldwide",
+      "summary": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-go",
+      "publishedAt": "Fri, 16 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "3604a364-fb84-4b72-9e56-2f73e442b2c2",
+      "title": "Our approach to advertising and expanding access to ChatGPT",
+      "summary": "OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
+      "publishedAt": "Fri, 16 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "c2ffd40c-e446-4e33-a34d-e65ab463c2b8",
+      "title": "Investing in Merge Labs",
+      "summary": "OpenAI is investing in Merge Labs to support new brain computer interfaces that bridge biological and artificial intelligence to maximize human ability, agency, and experience.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/investing-in-merge-labs",
+      "publishedAt": "Thu, 15 Jan 2026 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": []
+    },
+    {
+      "id": "8d1284f2-bb47-49f8-a552-fc5a7e00a5fd",
+      "title": "Strengthening the U.S. AI supply chain through domestic manufacturing",
+      "summary": "OpenAI launches a new RFP to strengthen the U.S. AI supply chain by accelerating domestic manufacturing, creating jobs, and scaling AI infrastructure.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/strengthening-the-us-ai-supply-chain",
+      "publishedAt": "Thu, 15 Jan 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "57f78082-9c57-49e7-a7cb-71e4bb6d8201",
+      "title": "OpenAI partners with Cerebras  ",
+      "summary": "OpenAI partners with Cerebras to add 750MW of high-speed AI compute, reducing inference latency and making ChatGPT faster for real-time AI workloads.",
+      "category": "ai-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/cerebras-partnership",
+      "publishedAt": "Wed, 14 Jan 2026 14:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.720Z",
+      "tags": []
+    }
+  ]
+}

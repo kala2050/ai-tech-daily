@@ -1,0 +1,245 @@
+{
+  "updatedAt": "2026-04-01T08:27:47.823Z",
+  "categories": {
+    "ai-tech": {
+      "count": 100,
+      "items": [
+        {
+          "id": "cadc7867-6719-4bf1-9493-829229f9da17",
+          "title": "HapCompass: A Rotational Haptic Device for Contact-Rich Robotic Teleoperation",
+          "summary": "The contact-rich nature of manipulation makes it a significant challenge for robotic teleoperation. While haptic feedback is critical for contact-rich tasks, providing intuitive directional cues within wearable teleoperation interfaces remains a bottleneck. Existing solutions, such as non-directiona",
+          "category": "ai-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.30042v1",
+          "publishedAt": "2026-03-31T17:57:52Z",
+          "collectedAt": "2026-04-01T08:27:47.719Z",
+          "tags": [
+            "cs.RO",
+            "cs.HC",
+            "cs.RO"
+          ]
+        },
+        {
+          "id": "73b9230e-c0d0-4e31-a0e2-1b267e926d08",
+          "title": "Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations",
+          "summary": "Automatic parallelization remains a challenging problem in software engineering, particularly in identifying code regions where loops can be safely executed in parallel on modern multi-core architectures. Traditional static analysis techniques, such as dependence analysis and polyhedral models, ofte",
+          "category": "ai-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.30040v1",
+          "publishedAt": "2026-03-31T17:54:27Z",
+          "collectedAt": "2026-04-01T08:27:47.719Z",
+          "tags": [
+            "cs.SE",
+            "cs.AI",
+            "cs.SE"
+          ]
+        },
+        {
+          "id": "139bea67-56aa-4faa-9e22-bff9cb9bb227",
+          "title": "Benchmarking PhD-Level Coding in 3D Geometric Computer Vision",
+          "summary": "AI-assisted coding has rapidly reshaped software practice and research workflows, yet today's models still struggle to produce correct code for complex 3D geometric vision. If models could reliably write such code, the research of our community would change substantially. To measure progress toward",
+          "category": "ai-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.30038v1",
+          "publishedAt": "2026-03-31T17:50:55Z",
+          "collectedAt": "2026-04-01T08:27:47.719Z",
+          "tags": [
+            "cs.CV",
+            "cs.CV"
+          ]
+        },
+        {
+          "id": "0b7e5b67-b1a5-481a-8eb1-851c9c89004a",
+          "title": "Reward-Based Online LLM Routing via NeuralUCB",
+          "summary": "This study investigates the use of NeuralUCB for cost-aware large language model (LLM) routing. Existing routing approaches can be broadly grouped into supervised routing methods and partial-feedback methods, each with different tradeoffs in efficiency and adaptivity. We implement a NeuralUCB-based",
+          "category": "ai-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.30035v1",
+          "publishedAt": "2026-03-31T17:35:34Z",
+          "collectedAt": "2026-04-01T08:27:47.719Z",
+          "tags": [
+            "cs.LG",
+            "cs.CL",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "60c4887f-e9b5-433c-b47c-593510c26d8a",
+          "title": "Tucker Attention: A generalization of approximate attention mechanisms",
+          "summary": "The pursuit of reducing the memory footprint of the self-attention mechanism in multi-headed self attention (MHA) spawned a rich portfolio of methods, e.g., group-query attention (GQA) and multi-head latent attention (MLA). The methods leverage specialized low-rank factorizations across embedding di",
+          "category": "ai-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.30033v1",
+          "publishedAt": "2026-03-31T17:30:51Z",
+          "collectedAt": "2026-04-01T08:27:47.719Z",
+          "tags": [
+            "cs.LG",
+            "cs.AI",
+            "cs.LG"
+          ]
+        }
+      ]
+    },
+    "agent-tech": {
+      "count": 100,
+      "items": [
+        {
+          "id": "6f82f325-d004-4903-b7b0-7ca95cbbca97",
+          "title": "OmniRoam: World Wandering via Long-Horizon Panoramic Video Generation",
+          "summary": "Modeling scenes using video generation models has garnered growing research interest in recent years. However, most existing approaches rely on perspective video models that synthesize only limited observations of a scene, leading to issues of completeness and global consistency. We propose OmniRoam",
+          "category": "agent-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.30045v1",
+          "publishedAt": "2026-03-31T17:59:33Z",
+          "collectedAt": "2026-04-01T08:27:47.754Z",
+          "tags": [
+            "cs.CV",
+            "cs.CV"
+          ]
+        },
+        {
+          "id": "2f999dba-5f06-4f81-b6ec-d4cc865deffc",
+          "title": "Video Models Reason Early: Exploiting Plan Commitment for Maze Solving",
+          "summary": "Video diffusion models exhibit emergent reasoning capabilities like solving mazes and puzzles, yet little is understood about how they reason during generation. We take a first step towards understanding this and study the internal planning dynamics of video models using 2D maze solving as a control",
+          "category": "agent-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.30043v1",
+          "publishedAt": "2026-03-31T17:58:15Z",
+          "collectedAt": "2026-04-01T08:27:47.754Z",
+          "tags": [
+            "cs.CV",
+            "cs.CV"
+          ]
+        },
+        {
+          "id": "f6e87247-7d01-4b2c-b475-7f7ccd08fc37",
+          "title": "Aligned, Orthogonal or In-conflict: When can we safely optimize Chain-of-Thought?",
+          "summary": "Chain-of-Thought (CoT) monitoring, in which automated systems monitor the CoT of an LLM, is a promising approach for effectively overseeing AI systems. However, the extent to which a model's CoT helps us oversee the model - the monitorability of the CoT - can be affected by training, for instance by",
+          "category": "agent-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.30036v1",
+          "publishedAt": "2026-03-31T17:38:39Z",
+          "collectedAt": "2026-04-01T08:27:47.754Z",
+          "tags": [
+            "cs.LG",
+            "cs.AI",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "3eab9022-4a22-4825-a3b6-fbf529f1b54b",
+          "title": "Covertly improving intelligibility with data-driven adaptations of speech timing",
+          "summary": "Human talkers often address listeners with language-comprehension challenges, such as hard-of-hearing or non-native adults, by globally slowing down their speech. However, it remains unclear whether this strategy actually makes speech more intelligible. Here, we take advantage of recent advancements",
+          "category": "agent-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.30032v1",
+          "publishedAt": "2026-03-31T17:30:47Z",
+          "collectedAt": "2026-04-01T08:27:47.754Z",
+          "tags": [
+            "cs.CL",
+            "cs.SD",
+            "cs.CL"
+          ]
+        },
+        {
+          "id": "01b27870-c345-46a4-933f-4bc269f7b5cc",
+          "title": "The Triadic Cognitive Architecture: Bounding Autonomous Action via Spatio-Temporal and Epistemic Friction",
+          "summary": "Current autonomous AI agents, driven primarily by Large Language Models (LLMs), operate in a state of cognitive weightlessness: they process information without an intrinsic sense of network topology, temporal pacing, or epistemic limits. Consequently, heuristic agentic loops (e.g., ReAct) can exhib",
+          "category": "agent-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.30031v1",
+          "publishedAt": "2026-03-31T17:30:25Z",
+          "collectedAt": "2026-04-01T08:27:47.754Z",
+          "tags": [
+            "cs.AI",
+            "cs.AI"
+          ]
+        }
+      ]
+    },
+    "graphics-tech": {
+      "count": 22,
+      "items": [
+        {
+          "id": "a31a5cf5-a691-47e2-8abd-293461251d98",
+          "title": "Abstraction in Style",
+          "summary": "Artistic styles often embed abstraction beyond surface appearance, involving deliberate reinterpretation of structure rather than mere changes in texture or color. Conventional style transfer methods typically preserve the input geometry and therefore struggle to capture this deeper abstraction beha",
+          "category": "graphics-tech",
+          "sourceType": "academic",
+          "sourceName": "arXiv",
+          "sourceUrl": "https://arxiv.org/abs/2603.29924v1",
+          "publishedAt": "2026-03-31T15:59:55Z",
+          "collectedAt": "2026-04-01T06:50:28.128Z",
+          "tags": [
+            "cs.CV",
+            "cs.CV"
+          ]
+        },
+        {
+          "id": "af28448d-6753-41a0-9a33-dceea4b3e737",
+          "title": "Datadog uses Codex for system-level code review",
+          "summary": "OpenAI and Datadog brand graphic with the OpenAI wordmark on the left, the Datadog logo on the right, and a central abstract brown fur-like texture panel on a white background.",
+          "category": "graphics-tech",
+          "sourceType": "industry",
+          "sourceName": "OpenAI Blog",
+          "sourceUrl": "https://openai.com/index/datadog",
+          "publishedAt": "Fri, 09 Jan 2026 00:00:00 GMT",
+          "collectedAt": "2026-04-01T06:50:28.128Z",
+          "tags": [
+            "B2B Story"
+          ]
+        },
+        {
+          "id": "2dfb4ae8-620f-4a8d-bd92-99d0b7f56728",
+          "title": "AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs",
+          "summary": "AMD and OpenAI have announced a multi-year partnership to deploy 6 gigawatts of AMD Instinct GPUs, beginning with 1 gigawatt in 2026, to power OpenAI’s next-generation AI infrastructure and accelerate",
+          "category": "graphics-tech",
+          "sourceType": "industry",
+          "sourceName": "OpenAI Blog",
+          "sourceUrl": "https://openai.com/index/openai-amd-strategic-partnership",
+          "publishedAt": "Mon, 06 Oct 2025 06:00:00 GMT",
+          "collectedAt": "2026-04-01T06:50:28.128Z",
+          "tags": []
+        },
+        {
+          "id": "4ddb7122-b407-474f-b4a6-8b5a3ff6c46a",
+          "title": "Introducing Stargate UK",
+          "summary": "OpenAI, NVIDIA, and Nscale launch Stargate UK, a sovereign AI infrastructure partnership delivering up to 50,000 GPUs and the UK’s largest supercomputer to power national AI innovation, public service",
+          "category": "graphics-tech",
+          "sourceType": "industry",
+          "sourceName": "OpenAI Blog",
+          "sourceUrl": "https://openai.com/index/introducing-stargate-uk",
+          "publishedAt": "Tue, 16 Sep 2025 14:30:00 GMT",
+          "collectedAt": "2026-04-01T06:50:28.128Z",
+          "tags": [
+            "Global Affairs"
+          ]
+        },
+        {
+          "id": "d3fd7e01-9837-49c7-90c9-3557dc0d33ad",
+          "title": "Introducing Triton: Open-source GPU programming for neural networks",
+          "summary": "We’re releasing Triton 1.0, an open-source Python-like programming language which enables researchers with no CUDA experience to write highly efficient GPU code—most of the time on par with what an ex",
+          "category": "graphics-tech",
+          "sourceType": "industry",
+          "sourceName": "OpenAI Blog",
+          "sourceUrl": "https://openai.com/index/triton",
+          "publishedAt": "Wed, 28 Jul 2021 07:00:00 GMT",
+          "collectedAt": "2026-04-01T06:50:28.128Z",
+          "tags": [
+            "Research"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1431 @@
+{
+  "updatedAt": "2026-04-01T08:27:47.793Z",
+  "total": 100,
+  "items": [
+    {
+      "id": "6f82f325-d004-4903-b7b0-7ca95cbbca97",
+      "title": "OmniRoam: World Wandering via Long-Horizon Panoramic Video Generation",
+      "summary": "Modeling scenes using video generation models has garnered growing research interest in recent years. However, most existing approaches rely on perspective video models that synthesize only limited observations of a scene, leading to issues of completeness and global consistency. We propose OmniRoam",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30045v1",
+      "publishedAt": "2026-03-31T17:59:33Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "2f999dba-5f06-4f81-b6ec-d4cc865deffc",
+      "title": "Video Models Reason Early: Exploiting Plan Commitment for Maze Solving",
+      "summary": "Video diffusion models exhibit emergent reasoning capabilities like solving mazes and puzzles, yet little is understood about how they reason during generation. We take a first step towards understanding this and study the internal planning dynamics of video models using 2D maze solving as a control",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30043v1",
+      "publishedAt": "2026-03-31T17:58:15Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "f6e87247-7d01-4b2c-b475-7f7ccd08fc37",
+      "title": "Aligned, Orthogonal or In-conflict: When can we safely optimize Chain-of-Thought?",
+      "summary": "Chain-of-Thought (CoT) monitoring, in which automated systems monitor the CoT of an LLM, is a promising approach for effectively overseeing AI systems. However, the extent to which a model's CoT helps us oversee the model - the monitorability of the CoT - can be affected by training, for instance by",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30036v1",
+      "publishedAt": "2026-03-31T17:38:39Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "3eab9022-4a22-4825-a3b6-fbf529f1b54b",
+      "title": "Covertly improving intelligibility with data-driven adaptations of speech timing",
+      "summary": "Human talkers often address listeners with language-comprehension challenges, such as hard-of-hearing or non-native adults, by globally slowing down their speech. However, it remains unclear whether this strategy actually makes speech more intelligible. Here, we take advantage of recent advancements",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30032v1",
+      "publishedAt": "2026-03-31T17:30:47Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CL",
+        "cs.SD",
+        "cs.CL"
+      ]
+    },
+    {
+      "id": "01b27870-c345-46a4-933f-4bc269f7b5cc",
+      "title": "The Triadic Cognitive Architecture: Bounding Autonomous Action via Spatio-Temporal and Epistemic Friction",
+      "summary": "Current autonomous AI agents, driven primarily by Large Language Models (LLMs), operate in a state of cognitive weightlessness: they process information without an intrinsic sense of network topology, temporal pacing, or epistemic limits. Consequently, heuristic agentic loops (e.g., ReAct) can exhib",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30031v1",
+      "publishedAt": "2026-03-31T17:30:25Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.AI",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "a52052c2-9a5a-4e35-9389-293792eb6004",
+      "title": "Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks",
+      "summary": "AI agents, predominantly powered by large language models (LLMs), are vulnerable to indirect prompt injection, in which malicious instructions embedded in untrusted data can trigger dangerous agent actions. This position paper discusses our vision for system-level defenses against indirect prompt in",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30016v1",
+      "publishedAt": "2026-03-31T17:15:46Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CR"
+      ]
+    },
+    {
+      "id": "211de4c9-6a1c-4d36-8c3f-d82f5a9fb917",
+      "title": "Scalable AI-assisted Workflow Management for Detector Design Optimization Using Distributed Computing",
+      "summary": "The Production and Distributed Analysis (PanDA) system, originally developed for the ATLAS experiment at the CERN Large Hadron Collider (LHC), has evolved into a robust platform for orchestrating large-scale workflows across distributed computing resources. Coupled with its intelligent Distributed D",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30014v1",
+      "publishedAt": "2026-03-31T17:11:16Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.DC",
+        "cs.AI",
+        "cs.DC"
+      ]
+    },
+    {
+      "id": "d6abb70d-1da9-46f3-8103-15dd399ecb5f",
+      "title": "Conditional Polarization Guidance for Camouflaged Object Detection",
+      "summary": "Camouflaged object detection (COD) aims to identify targets that are highly blended with their backgrounds. Recent works have shown that the optical characteristics of polarization cues play a significant role in improving camouflaged object detection. However, most existing polarization-based appro",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.30008v1",
+      "publishedAt": "2026-03-31T17:03:06Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "907454e3-8505-43ac-bd21-91af7947009e",
+      "title": "Phyelds: A Pythonic Framework for Aggregate Computing",
+      "summary": "Aggregate programming is a field-based coordination paradigm with over a decade of exploration and successful applications across domains including sensor networks, robotics, and IoT, with implementations in various programming languages, such as Protelis, ScaFi (Scala), and FCPP (C++). A recent res",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29999v1",
+      "publishedAt": "2026-03-31T16:57:32Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.SE",
+        "cs.AI",
+        "cs.PL",
+        "cs.SE"
+      ]
+    },
+    {
+      "id": "9176431c-7081-4b20-91c6-110ad63380a2",
+      "title": "Enhancing Structural Mapping with LLM-derived Abstractions for Analogical Reasoning in Narratives",
+      "summary": "Analogical reasoning is a key driver of human generalization in problem-solving and argumentation. Yet, analogies between narrative structures remain challenging for machines. Cognitive engines for structural mapping are not directly applicable, as they assume pre-extracted entities, whereas LLMs' p",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29997v1",
+      "publishedAt": "2026-03-31T16:57:11Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "id": "7f59b0a9-943f-48aa-a3b1-27e222cc47d2",
+      "title": "Extending MONA in Camera Dropbox: Reproduction, Learned Approval, and Design Implications for Reward-Hacking Mitigation",
+      "summary": "Myopic Optimization with Non-myopic Approval (MONA) mitigates multi-step reward hacking by restricting the agent's planning horizon while supplying far-sighted approval as a training signal~\\cite{farquhar2025mona}. The original paper identifies a critical open question: how the method of constructin",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29993v1",
+      "publishedAt": "2026-03-31T16:56:10Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.AI",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "d8f311cd-f706-483b-ab86-4676aee13724",
+      "title": "Aligning Validation with Deployment: Target-Weighted Cross-Validation for Spatial Prediction",
+      "summary": "Cross-validation (CV) is commonly used to estimate predictive risk when independent test data are unavailable. Its validity depends on the assumption that validation tasks are sampled from the same distribution as prediction tasks encountered during deployment. In spatial prediction and other settin",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29981v1",
+      "publishedAt": "2026-03-31T16:44:07Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.LG",
+        "stat.ML",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "b55a9029-cc1c-4f55-bd3d-4c925fff9684",
+      "title": "SurgTEMP: Temporal-Aware Surgical Video Question Answering with Text-guided Visual Memory for Laparoscopic Cholecystectomy",
+      "summary": "Surgical procedures are inherently complex and risky, requiring extensive expertise and constant focus to well navigate evolving intraoperative scenes. Computer-assisted systems such as surgical visual question answering (VQA) offer promises for education and intraoperative support. Current surgical",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29962v1",
+      "publishedAt": "2026-03-31T16:27:46Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "d94bf278-2b9d-4e8b-b118-d68f93d57b5d",
+      "title": "Think Anywhere in Code Generation",
+      "summary": "Recent advances in reasoning Large Language Models (LLMs) have primarily relied on upfront thinking, where reasoning occurs before final answer. However, this approach suffers from critical limitations in code generation, where upfront thinking is often insufficient as problems' full complexity only",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29957v1",
+      "publishedAt": "2026-03-31T16:24:03Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.SE",
+        "cs.LG",
+        "cs.SE"
+      ]
+    },
+    {
+      "id": "35e3e82d-ec45-4765-9739-6adcd2db0ee8",
+      "title": "Detecting Unknown Objects via Energy-based Separation for Open World Object Detection",
+      "summary": "In this work, we tackle the problem of Open World Object Detection (OWOD). This challenging scenario requires the detector to incrementally learn to classify known objects without forgetting while identifying unknown objects without supervision. Previous OWOD methods have enhanced the unknown discov",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29954v1",
+      "publishedAt": "2026-03-31T16:20:56Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "6d4ffb8f-12af-4e3c-a934-6acdfd818172",
+      "title": "Four Generations of Quantum Biomedical Sensors",
+      "summary": "Quantum sensing technologies offer transformative potential for ultra-sensitive biomedical sensing, yet their clinical translation remains constrained by classical noise limits and a reliance on macroscopic ensembles. We propose a unifying generational framework to organize the evolving landscape of",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29944v1",
+      "publishedAt": "2026-03-31T16:16:27Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "quant-ph",
+        "cs.AI",
+        "quant-ph"
+      ]
+    },
+    {
+      "id": "9be8a3f9-6f79-45c5-adc6-d4a116de0f17",
+      "title": "Better than Average: Spatially-Aware Aggregation of Segmentation Uncertainty Improves Downstream Performance",
+      "summary": "Uncertainty Quantification (UQ) is crucial for ensuring the reliability of automated image segmentations in safety-critical domains like biomedical image analysis or autonomous driving. In segmentation, UQ generates pixel-wise uncertainty scores that must be aggregated into image-level scores for do",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29941v1",
+      "publishedAt": "2026-03-31T16:15:26Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CV",
+        "cs.LG",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "a75530ae-dd14-4078-bb26-421463c1ac86",
+      "title": "Rethinking AI Literacy Education in Higher Education: Bridging Risk Perception and Responsible Adoption",
+      "summary": "As AI becomes increasingly embedded across societal domains, understanding how future AI practitioners, particularly technology students, perceive its risks is essential for responsible development and adoption. This study analyzed responses from 139 students in Computer Science, Data Science/Data A",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29935v1",
+      "publishedAt": "2026-03-31T16:08:16Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CY",
+        "cs.AI",
+        "cs.CY"
+      ]
+    },
+    {
+      "id": "3fd63330-3ede-4006-a737-c441f98d8b6c",
+      "title": "Gloria: Consistent Character Video Generation via Content Anchors",
+      "summary": "Digital characters are central to modern media, yet generating character videos with long-duration, consistent multi-view appearance and expressive identity remains challenging. Existing approaches either provide insufficient context to preserve identity or leverage non-character-centric information",
+      "category": "agent-tech",
+      "sourceType": "academic",
+      "sourceName": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2603.29931v1",
+      "publishedAt": "2026-03-31T16:06:16Z",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "cs.CV",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "60526ded-81f1-4e0e-9db5-925f59102dc2",
+      "title": "Helping disaster response teams turn AI into action across Asia",
+      "summary": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/helping-disaster-response-teams-asia",
+      "publishedAt": "Sun, 29 Mar 2026 22:15:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "d31c3f7b-8f02-4e01-8cb6-19004b57628e",
+      "title": "Introducing the OpenAI Safety Bug Bounty program",
+      "summary": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/safety-bug-bounty",
+      "publishedAt": "Wed, 25 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Safety"
+      ]
+    },
+    {
+      "id": "9523f2de-4372-49b2-8c23-b8658d23364d",
+      "title": "How we monitor internal coding agents for misalignment",
+      "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "publishedAt": "Thu, 19 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Safety"
+      ]
+    },
+    {
+      "id": "1a88ff81-6058-45d1-9e0d-d1f8b44f2c7e",
+      "title": "Accelerating AI adoption in Europe",
+      "summary": "OpenAI and Allied for Startups release the Hacktivate AI report with 20 actionable policy ideas to accelerate AI adoption in Europe, boost competitiveness, and empower innovators.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/global-affairs/accelerating-ai-uptake-in-europe",
+      "publishedAt": "Mon, 06 Oct 2025 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "bdfa23fb-0712-42bf-96fc-063ea2bc05bf",
+      "title": "Improving support with every interaction at OpenAI",
+      "summary": "Learn how OpenAI uses AI to enhance support, cutting response times, improving quality, and scaling to meet hypergrowth.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/openai-support-model",
+      "publishedAt": "Mon, 29 Sep 2025 13:30:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "id": "229f092a-4ab0-4429-9603-0bc091b6be92",
+      "title": "SafetyKit scales risk agents with OpenAI’s most capable models",
+      "summary": "Discover how SafetyKit leverages OpenAI GPT-5 to enhance content moderation, enforce compliance, and outpace legacy safety systems with greater accuracy .",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/safetykit",
+      "publishedAt": "Tue, 09 Sep 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "fba7d8fd-8afc-462a-83a0-6a5d705b3447",
+      "title": "Figma uses AI to transform digital design",
+      "summary": "Discover how Figma is transforming digital design with AI. David Kossnick shares how tools like Figma Make empower teams to prototype, collaborate, and build with AI—reshaping workflows for designers,",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/figma-david-kossnick",
+      "publishedAt": "Fri, 01 Aug 2025 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "5df5b8a0-5622-439b-a859-ecb3d4e7be0c",
+      "title": "Model ML is helping financial firms rebuild with AI from the ground up",
+      "summary": "As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/model-ml-chaz-englander",
+      "publishedAt": "Wed, 23 Jul 2025 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "id": "c524580b-ca3a-4a29-bd26-11e541b3c5b7",
+      "title": "AI as the greatest source of empowerment for all",
+      "summary": "I’ve always considered myself a pragmatic technologist—someone who loves technology not for its own sake, but for the direct impact it can have on people’s lives. That’s what makes this job so excitin",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/ai-as-the-greatest-source-of-empowerment-for-all",
+      "publishedAt": "Mon, 21 Jul 2025 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "413e2c4a-53f4-456f-9814-22b7330d4c17",
+      "title": "ChatGPT agent System Card",
+      "summary": "ChatGPT agent System Card: OpenAI’s agentic model unites research, browser automation, and code tools with safeguards under the Preparedness Framework.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/chatgpt-agent-system-card",
+      "publishedAt": "Thu, 17 Jul 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "b33b13df-4ab4-4219-b0bb-f067c0aff809",
+      "title": "Customizable, no-code voice agent automation with GPT-4o",
+      "summary": "Retell AI is transforming the call center with AI voice automation powered by GPT-4o and GPT-4.1. Its no-code platform enables businesses to launch natural, real-time voice agents that cut call costs,",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/retell-ai",
+      "publishedAt": "Thu, 26 Jun 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "e6b62aa0-ea8f-4e5c-9924-0324f1ae4ffd",
+      "title": "Bringing the magic of AI to Mattel’s iconic brands",
+      "summary": "OpenAI and Mattel are partnering to integrate AI into iconic brands such as Barbie and Hot Wheels, aiming to enhance creative development, streamline workflows, and create new ways for fans to engage.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/mattels-iconic-brands",
+      "publishedAt": "Thu, 12 Jun 2025 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "66586fc2-658f-4278-873d-21e7663c22ea",
+      "title": "Addendum to o3 and o4-mini system card: Codex",
+      "summary": "Codex is a cloud-based coding agent. Codex is powered by codex-1, a version of OpenAI o3 optimized for software engineering. codex-1 was trained using reinforcement learning on real-world coding tasks",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/o3-o4-mini-codex-system-card-addendum",
+      "publishedAt": "Fri, 16 May 2025 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": []
+    },
+    {
+      "id": "4e9ac561-f822-4fb8-96e4-bd024560c622",
+      "title": "Introducing Codex",
+      "summary": "Introducing Codex: a cloud-based software engineering agent that can work on many tasks in parallel, powered by codex-1. With Codex, developers can simultaneously deploy multiple agents to independent",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-codex",
+      "publishedAt": "Fri, 16 May 2025 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Release"
+      ]
+    },
+    {
+      "id": "0e9873a2-449f-44a9-84a0-d4eaab925745",
+      "title": "Lowe’s leverages AI to power home improvement retail",
+      "summary": "A conversation with Chandhu Nair, Senior Vice President of Data, AI, and Innovation.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/lowes-chandhu-nair",
+      "publishedAt": "Mon, 05 May 2025 05:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "fec9f802-7673-424c-8c01-25227fe3fd38",
+      "title": "Thinking with images",
+      "summary": "OpenAI o3 and o4-mini represent a significant breakthrough in visual perception by reasoning with images in their chain of thought.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/thinking-with-images",
+      "publishedAt": "Wed, 16 Apr 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Release"
+      ]
+    },
+    {
+      "id": "2efcd3d5-41bc-44c7-b7ad-eec597466adf",
+      "title": "OpenAI o3 and o4-mini System Card",
+      "summary": "OpenAI o3 and OpenAI o4-mini combine state-of-the-art reasoning with full tool capabilities—web browsing, Python, image and file analysis, image generation, canvas, automations, file search, and memor",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/o3-o4-mini-system-card",
+      "publishedAt": "Wed, 16 Apr 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "ba993d1e-43dc-4f9f-91fb-1704d21f1f9b",
+      "title": "BrowseComp: a benchmark for browsing agents",
+      "summary": "BrowseComp: a benchmark for browsing agents.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/browsecomp",
+      "publishedAt": "Thu, 10 Apr 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": []
+    },
+    {
+      "id": "c3969a49-c0ff-4786-bc5d-bf272b7e7e21",
+      "title": "PaperBench: Evaluating AI’s Ability to Replicate AI Research",
+      "summary": "We introduce PaperBench, a benchmark evaluating the ability of AI agents to replicate state-of-the-art AI research.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/paperbench",
+      "publishedAt": "Wed, 02 Apr 2025 10:15:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "88594f2f-c1a8-4050-af31-8b771df97384",
+      "title": "Moving from intent-based bots to proactive AI agents",
+      "summary": "Moving from intent-based bots to proactive AI agents.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/zendesk",
+      "publishedAt": "Thu, 27 Mar 2025 09:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "78d0738f-2da1-41f5-b6df-d137723ee5d4",
+      "title": "Automating 90% of finance and legal work with agents",
+      "summary": "Hebbia’s deep research automates 90% of finance and legal work, powered by OpenAI",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/hebbia",
+      "publishedAt": "Tue, 25 Mar 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "12c2c713-6ff2-446e-b2c9-543e7f13d369",
+      "title": "Introducing next-generation audio models in the API",
+      "summary": "For the first time, developers can also instruct the text-to-speech model to speak in a specific way—for example, “talk like a sympathetic customer service agent”—unlocking a new level of customizatio",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-our-next-generation-audio-models",
+      "publishedAt": "Thu, 20 Mar 2025 11:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Release"
+      ]
+    },
+    {
+      "id": "1adf74dc-1ef1-4567-ada4-ea811ba1a6c5",
+      "title": "OpenAI’s proposals for the U.S. AI Action Plan",
+      "summary": "Recommendations build on OpenAI’s Economic Blueprint to strengthen America’s AI leadership.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan",
+      "publishedAt": "Thu, 13 Mar 2025 03:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": []
+    },
+    {
+      "id": "fc687261-8ebc-4ef2-af57-094bc06243f5",
+      "title": "New tools for building agents",
+      "summary": "We’re evolving our platform to help developers and enterprises build useful and reliable agents.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/new-tools-for-building-agents",
+      "publishedAt": "Tue, 11 Mar 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "30b82d0e-ce61-43f7-80e5-e8fce0e6f8c2",
+      "title": "Building an autonomous financial analyst with o1 and o3-mini",
+      "summary": "Endex builds the future of financial analysis, powered by OpenAI’s reasoning models.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/endex",
+      "publishedAt": "Thu, 27 Feb 2025 09:30:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "3842f5a1-8a97-4687-a5ea-65d9279b0087",
+      "title": "OpenAI at the Paris AI Action Summit",
+      "summary": "OpenAI looks forward to engaging with global leaders on AI’s role in shaping innovation and economic prosperity.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/global-affairs/openai-at-the-paris-ai-action-summit",
+      "publishedAt": "Fri, 07 Feb 2025 17:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "e27ce4bf-01ce-421e-8b91-134688fd65ce",
+      "title": "Introducing deep research",
+      "summary": "An agent that uses reasoning to synthesize large amounts of online information and complete multi-step research tasks for you. Available to Pro users today, Plus and Team next.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-deep-research",
+      "publishedAt": "Sun, 02 Feb 2025 16:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "8123063f-9e35-47da-8436-cd29b04c7cbb",
+      "title": "OpenAI o3-mini",
+      "summary": "Pushing the frontier of cost-effective reasoning.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/openai-o3-mini",
+      "publishedAt": "Fri, 31 Jan 2025 11:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "dccdfaf2-2287-43e7-ab8c-30db2f1eb2dd",
+      "title": "Strengthening America’s AI leadership with the U.S. National Laboratories",
+      "summary": "OpenAI’s latest line of reasoning models will be used by nation’s leading scientists to drive scientific breakthroughs.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories",
+      "publishedAt": "Thu, 30 Jan 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "0fe3bc20-eaa7-4d1f-94b6-b6d6cbf9a2f8",
+      "title": "Computer-Using Agent",
+      "summary": "A universal interface for AI to interact with the digital world.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/computer-using-agent",
+      "publishedAt": "Thu, 23 Jan 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "6f3774cb-254e-4fe7-b9ed-10be26d1d2c3",
+      "title": "Introducing Operator",
+      "summary": "A research preview of an agent that can use its own browser to perform tasks for you. Available to Pro users in the U.S.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-operator",
+      "publishedAt": "Thu, 23 Jan 2025 10:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "4507bbcf-27be-4ef8-a562-a5a46bf5c30f",
+      "title": "Elon Musk wanted an OpenAI for-profit",
+      "summary": "Elon Musk’s latest legal filing against OpenAI marks his fourth attempt in less than a year to reframe his claims. However, his own words and actions speak for themselves—in 2017, Elon not only wanted",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/elon-musk-wanted-an-openai-for-profit",
+      "publishedAt": "Fri, 13 Dec 2024 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "e394dd9d-b687-4213-af02-4f2712c56089",
+      "title": "OpenAI appoints Scott Schools as Chief Compliance Officer",
+      "summary": "OpenAI appoints Scott Schools as Chief Compliance Officer",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/global-affairs/openai-chief-compliance-officer-announcement",
+      "publishedAt": "Tue, 22 Oct 2024 10:30:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "74e9f1cc-3adf-4541-9bf6-1373f5a7b714",
+      "title": "Solving complex problems with OpenAI o1 models",
+      "summary": "In this video, we share how the o1 reasoning models can help in domains like coding, strategy, and research.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/business/solving-complex-problems-with-openai-o1-models",
+      "publishedAt": "Thu, 17 Oct 2024 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Webinar"
+      ]
+    },
+    {
+      "id": "6c7113ea-0a57-46a7-b9df-ab72964cc39a",
+      "title": "Introducing the OpenAI Academy",
+      "summary": "New initiative will fuel innovation by investing in developers and organizations leveraging AI, starting in low- and middle-income countries.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/global-affairs/openai-academy",
+      "publishedAt": "Mon, 23 Sep 2024 03:30:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "30b5abb7-b89a-4e98-add0-b17254b30fce",
+      "title": "OpenAI o1-mini",
+      "summary": "Advancing cost-efficient reasoning",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning",
+      "publishedAt": "Thu, 12 Sep 2024 10:01:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "a7920a9d-d8f6-46c1-81dc-b6ca10f42097",
+      "title": "Economics and reasoning with OpenAI o1",
+      "summary": "Economist Tyler Cowen explains how OpenAI o1 tackles complex economic questions.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/o1-economics",
+      "publishedAt": "Thu, 12 Sep 2024 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Story"
+      ]
+    },
+    {
+      "id": "32c0f0cd-69aa-4896-a6ea-fbee205d2efd",
+      "title": "Coding with OpenAI o1",
+      "summary": "Scott Wu, CEO and Co-Founder of Cognition, explains how OpenAI o1 makes coding decisions in a more human-like way.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/o1-coding",
+      "publishedAt": "Thu, 12 Sep 2024 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Story"
+      ]
+    },
+    {
+      "id": "371dea68-005a-4178-8654-968f9f03e94c",
+      "title": "Improving Model Safety Behavior with Rule-Based Rewards",
+      "summary": "We've developed and applied a new method leveraging Rule-Based Rewards (RBRs) that aligns models to behave safely without extensive human data collection.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards",
+      "publishedAt": "Wed, 24 Jul 2024 09:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "5421eba3-6e2f-490d-8cc0-5a3d45023ed8",
+      "title": "Achieving 10x growth with agentic sales prospecting",
+      "summary": "Achieving 10x growth with agentic sales prospecting",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/clay",
+      "publishedAt": "Tue, 18 Jun 2024 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Story"
+      ]
+    },
+    {
+      "id": "7e1f59ad-b0e4-475c-b139-f86a3ff1f115",
+      "title": "Klarna's AI assistant does the work of 700 full-time agents",
+      "summary": "Klarna is using AI to revolutionize personal shopping, customer service, and employee productivity.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/klarna",
+      "publishedAt": "Fri, 05 Apr 2024 00:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Story"
+      ]
+    },
+    {
+      "id": "b924775d-9f11-4392-88fb-a143eec61a0c",
+      "title": "Practices for Governing Agentic AI Systems",
+      "summary": "Practices for Governing Agentic AI Systems",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/practices-for-governing-agentic-ai-systems",
+      "publishedAt": "Thu, 14 Dec 2023 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Safety & Alignment"
+      ]
+    },
+    {
+      "id": "1a5d3518-bea7-4ec7-92f4-548ca1a2d1ea",
+      "title": "Improving mathematical reasoning with process supervision",
+      "summary": "We've trained a model to achieve a new state-of-the-art in mathematical problem solving by rewarding each correct step of reasoning (“process supervision”) instead of simply rewarding the correct fina",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/improving-mathematical-reasoning-with-process-supervision",
+      "publishedAt": "Wed, 31 May 2023 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "1947730d-0955-4922-a454-fca87c085b12",
+      "title": "Planning for AGI and beyond",
+      "summary": "Our mission is to ensure that artificial general intelligence—AI systems that are generally smarter than humans—benefits all of humanity.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/planning-for-agi-and-beyond",
+      "publishedAt": "Fri, 24 Feb 2023 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Safety & Alignment"
+      ]
+    },
+    {
+      "id": "68d93081-524f-4b8f-a1cb-892c5d25a933",
+      "title": "DALL·E 2: Extending creativity",
+      "summary": "As part of our DALL·E 2 research preview, more than 3,000 artists from more than 118 countries have incorporated DALL·E into their creative workflows. The artists in our early access group have helped",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/dall-e-2-extending-creativity",
+      "publishedAt": "Thu, 14 Jul 2022 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "530a65fe-5c39-49c9-a810-4749b158839c",
+      "title": "Procgen Benchmark",
+      "summary": "We’re releasing Procgen Benchmark, 16 simple-to-use procedurally-generated environments which provide a direct measure of how quickly a reinforcement learning agent learns generalizable skills.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/procgen-benchmark",
+      "publishedAt": "Tue, 03 Dec 2019 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "d8a2436f-8805-4e72-96a6-8f79bb3d9bb2",
+      "title": "Safety Gym",
+      "summary": "We’re releasing Safety Gym, a suite of environments and tools for measuring progress towards reinforcement learning agents that respect safety constraints while training.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/safety-gym",
+      "publishedAt": "Thu, 21 Nov 2019 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Safety & Alignment"
+      ]
+    },
+    {
+      "id": "227ca982-d25f-41f1-805e-b9a59399d3b5",
+      "title": "Emergent tool use from multi-agent interaction",
+      "summary": "We’ve observed agents discovering progressively more complex tool use while playing a simple game of hide-and-seek. Through training in our new simulated hide-and-seek environment, agents build a seri",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/emergent-tool-use",
+      "publishedAt": "Tue, 17 Sep 2019 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "594b19d3-218c-4d8c-bc4a-dc9680abb693",
+      "title": "Introducing Activation Atlases",
+      "summary": "We’ve created activation atlases (in collaboration with Google researchers), a new technique for visualizing what interactions between neurons can represent. As AI systems are deployed in increasingly",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-activation-atlases",
+      "publishedAt": "Wed, 06 Mar 2019 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Safety & Alignment"
+      ]
+    },
+    {
+      "id": "2c4159e4-d274-434a-b94b-77fc6a00845a",
+      "title": "Neural MMO: A massively multiagent game environment",
+      "summary": "We’re releasing a Neural MMO, a massively multiagent game environment for reinforcement learning agents. Our platform supports a large, variable number of agents within a persistent and open-ended tas",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/neural-mmo",
+      "publishedAt": "Mon, 04 Mar 2019 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "f9875502-12d5-4fc6-9d40-8d5fdd2a4445",
+      "title": "Quantifying generalization in reinforcement learning",
+      "summary": "We’re releasing CoinRun, a training environment which provides a metric for an agent’s ability to transfer its experience to novel situations and has already helped clarify a longstanding puzzle in re",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/quantifying-generalization-in-reinforcement-learning",
+      "publishedAt": "Thu, 06 Dec 2018 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "29d34756-415e-4b91-82c4-b9d90d8d8c17",
+      "title": "Reinforcement learning with prediction-based rewards",
+      "summary": "We’ve developed Random Network Distillation (RND), a prediction-based method for encouraging reinforcement learning agents to explore their environments through curiosity, which for the first time exc",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/reinforcement-learning-with-prediction-based-rewards",
+      "publishedAt": "Wed, 31 Oct 2018 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "48ed3bf2-9377-4372-b080-d3b31de450c0",
+      "title": "Learning Montezuma’s Revenge from a single demonstration",
+      "summary": "We’ve trained an agent to achieve a high score of 74,500 on Montezuma’s Revenge from a single human demonstration, better than any previously published result. Our algorithm is simple: the agent plays",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration",
+      "publishedAt": "Wed, 04 Jul 2018 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "5d6975fb-b87b-4a34-9aa4-aad952edc1b4",
+      "title": "Learning policy representations in multiagent systems",
+      "summary": "Learning policy representations in multiagent systems",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/learning-policy-representations-in-multiagent-systems",
+      "publishedAt": "Sun, 17 Jun 2018 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "51ebf448-8a0f-4da9-a4a7-6002c28e4e31",
+      "title": "GamePad: A learning environment for theorem proving",
+      "summary": "GamePad: A learning environment for theorem proving",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/gamepad",
+      "publishedAt": "Sat, 02 Jun 2018 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "04b6b90a-bead-4877-80cd-d10dd459a89d",
+      "title": "AI safety via debate",
+      "summary": "We’re proposing an AI safety technique which trains agents to debate topics with one another, using a human to judge who wins.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/debate",
+      "publishedAt": "Thu, 03 May 2018 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Safety & Alignment"
+      ]
+    },
+    {
+      "id": "e869a5e3-919b-42f6-bd43-10cee7e1f796",
+      "title": "Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research",
+      "summary": "Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/multi-goal-reinforcement-learning",
+      "publishedAt": "Mon, 26 Feb 2018 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.754Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "63301a8c-c696-48dc-ac3d-92c69a5a7274",
+      "title": "Ingredients for robotics research",
+      "summary": "We’re releasing eight simulated robotics environments and a Baselines implementation of Hindsight Experience Replay, all developed for our research over the past year. We’ve used these environments to",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/ingredients-for-robotics-research",
+      "publishedAt": "Mon, 26 Feb 2018 08:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.755Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "cedd7aab-98c5-4f40-8949-2e02da4c4411",
+      "title": "Learning a hierarchy",
+      "summary": "We’ve developed a hierarchical reinforcement learning algorithm that learns high-level actions useful for solving a range of tasks, allowing fast solving of tasks requiring thousands of timesteps. Our",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/learning-a-hierarchy",
+      "publishedAt": "Thu, 26 Oct 2017 07:00:00 GMT",
+      "collectedAt": "2026-04-01T08:27:47.755Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "2f762186-4649-4fee-9b53-c48e7cf62539",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "summary": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "publishedAt": "Tue, 17 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "d008ccfe-8a46-43a8-8bd6-5ddce1957783",
+      "title": "Why Codex Security Doesn’t Include a SAST Report",
+      "summary": "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/why-codex-security-doesnt-include-sast",
+      "publishedAt": "Mon, 16 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "4af8250b-666d-418e-ad72-00c41bf9877a",
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "summary": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/rakuten",
+      "publishedAt": "Wed, 11 Mar 2026 13:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "id": "79a17814-676a-4eb0-904e-19015dd09856",
+      "title": "Designing AI agents to resist prompt injection",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "publishedAt": "Wed, 11 Mar 2026 11:30:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "17fd3087-1cff-4c07-bb83-d33b88b04167",
+      "title": "From model to agent: Equipping the Responses API with a computer environment ",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/equip-responses-api-computer-environment",
+      "publishedAt": "Wed, 11 Mar 2026 11:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "20e19119-418d-4296-b3f0-1d33ca0cd4c0",
+      "title": "Codex Security: now in research preview ",
+      "summary": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/codex-security-now-in-research-preview",
+      "publishedAt": "Fri, 06 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "b7674101-3275-4a41-9445-7d8e97651cbd",
+      "title": "How Balyasny Asset Management built an AI research engine for investing",
+      "summary": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/balyasny-asset-management",
+      "publishedAt": "Fri, 06 Mar 2026 07:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "bb30fd8c-3fef-4967-9466-413993a1025d",
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "publishedAt": "Thu, 05 Mar 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "9489637d-9b0a-48b3-bdd5-3a6ccaf88494",
+      "title": "How Axios uses AI to help deliver high-impact local journalism ",
+      "summary": "Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/axios-allison-murphy",
+      "publishedAt": "Wed, 04 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "B2B Story"
+      ]
+    },
+    {
+      "id": "6a17e4ab-0a4e-49d4-92be-b0c96d7a8f9c",
+      "title": "Understanding AI and learning outcomes",
+      "summary": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/understanding-ai-and-learning-outcomes",
+      "publishedAt": "Wed, 04 Mar 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "5be22753-3926-4a10-97e0-2c4bda6c8616",
+      "title": "Our agreement with the Department of War",
+      "summary": "Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/our-agreement-with-the-department-of-war",
+      "publishedAt": "Sat, 28 Feb 2026 12:30:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "15562c33-9a57-4cf3-b2c3-10da5e611315",
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "summary": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "publishedAt": "Fri, 27 Feb 2026 05:30:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "d6b8046d-f8a4-450f-81dc-78b5095f3981",
+      "title": "OpenAI and Amazon announce strategic partnership",
+      "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/amazon-partnership",
+      "publishedAt": "Fri, 27 Feb 2026 05:30:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Company"
+      ]
+    },
+    {
+      "id": "ba291a55-2bb3-41f4-81c9-efb26377677a",
+      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting ",
+      "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting t",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/pacific-northwest-national-laboratory",
+      "publishedAt": "Thu, 26 Feb 2026 10:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "736bbb8a-75a5-4700-9cf3-1f7418879e57",
+      "title": "OpenAI announces Frontier Alliance Partners",
+      "summary": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/frontier-alliance-partners",
+      "publishedAt": "Mon, 23 Feb 2026 05:30:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Global Affairs"
+      ]
+    },
+    {
+      "id": "da6908c5-fbdf-460e-b9de-a41cfa7e9378",
+      "title": "Our First Proof submissions",
+      "summary": "We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/first-proof-submissions",
+      "publishedAt": "Fri, 20 Feb 2026 14:30:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "c085b918-bfec-4528-8f94-f34c603aaf91",
+      "title": "Introducing EVMbench",
+      "summary": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-evmbench",
+      "publishedAt": "Wed, 18 Feb 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "5cfa2139-b3d5-465f-a665-94cb4ae614e6",
+      "title": "Harness engineering: leveraging Codex in an agent-first world",
+      "summary": "By Ryan Lopopolo, Member of the Technical Staff",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/harness-engineering",
+      "publishedAt": "Wed, 11 Feb 2026 09:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": "278b84a6-052d-4daa-a829-784f70b6533d",
+      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
+      "summary": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+      "publishedAt": "Thu, 05 Feb 2026 11:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "b1f6674b-d23d-4c02-be2f-0a423f6615f2",
+      "title": "Introducing OpenAI Frontier",
+      "summary": "OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-openai-frontier",
+      "publishedAt": "Thu, 05 Feb 2026 06:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "f723c77e-0489-4724-b232-c34f697b2254",
+      "title": "Introducing GPT-5.3-Codex",
+      "summary": "GPT-5.3-Codex is a Codex-native agent that pairs frontier coding performance with general reasoning to support long-horizon, real-world technical work.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-3-codex",
+      "publishedAt": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Product"
+      ]
+    },
+    {
+      "id": "57a0d11b-b8b1-4206-9681-c3c538f383cc",
+      "title": "GPT-5.3-Codex System Card",
+      "summary": "GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabilities of GPT‑5.2.",
+      "category": "agent-tech",
+      "sourceType": "industry",
+      "sourceName": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "publishedAt": "Thu, 05 Feb 2026 00:00:00 GMT",
+      "collectedAt": "2026-04-01T06:57:17.146Z",
+      "tags": [
+        "Publication"
+      ]
+    }
+  ]
+}
