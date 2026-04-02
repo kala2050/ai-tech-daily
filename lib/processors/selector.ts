@@ -6,55 +6,94 @@ import { getAIConfig, isAIConfigured } from '@/lib/config/ai-providers';
 // 内容评分
 interface ContentScore {
   id: string;
-  relevance: number;    // 技术相关性 1-10
-  impact: number;       // 业界影响力 1-10
-  quality: number;      // 内容质量 1-10
-  totalScore: number;   // 综合评分
-  reason: string;       // 评分理由
+  relevance: number;
+  impact: number;
+  quality: number;
+  totalScore: number;
+  reason: string;
 }
+
+// 高质量来源（权重更高）
+const HIGH_QUALITY_SOURCES = [
+  'OpenAI', 'Anthropic', 'Google DeepMind', 'Google Research', 'Meta AI',
+  'Microsoft Research', 'NVIDIA', 'Apple ML', 'Amazon Science',
+  'arXiv', 'Nature', 'Science', 'MIT', 'Stanford', 'Berkeley',
+  'DeepMind Blog', 'OpenAI Blog', 'Google AI Blog',
+];
 
 // 分类描述
 const CATEGORY_DESCRIPTIONS: Record<Category, string> = {
-  'ai-tech': 'AI技术领域：大模型(LLM)、深度学习、NLP、计算机视觉、机器学习算法等',
-  'agent-tech': '智能体技术领域：AI Agent、多智能体系统、RAG、工具调用、自主决策等',
-  'graphics-tech': '图形技术领域：渲染技术、GPU计算、视觉计算、3D图形、游戏引擎等',
+  'ai-tech': 'AI技术',
+  'agent-tech': '智能体技术',
+  'graphics-tech': '图形技术',
 };
 
-// 批量评估内容（每批10条）
-async function scoreBatch(items: ContentItem[], category: Category): Promise<ContentScore[]> {
+// 计算基础分数（无需AI）
+function calculateBaseScore(item: ContentItem): number {
+  let score = 0;
+
+  // 来源质量（0-30分）
+  if (HIGH_QUALITY_SOURCES.some(s => item.sourceName.includes(s))) {
+    score += 30;
+  } else if (item.sourceType === 'academic') {
+    score += 20;
+  } else if (item.sourceType === 'industry') {
+    score += 15;
+  } else {
+    score += 10;
+  }
+
+  // 时间新鲜度（0-20分）
+  const daysSincePublish = (Date.now() - new Date(item.publishedAt).getTime()) / (1000 * 60 * 60 * 24);
+  if (daysSincePublish < 1) {
+    score += 20;
+  } else if (daysSincePublish < 7) {
+    score += 15;
+  } else if (daysSincePublish < 30) {
+    score += 10;
+  } else {
+    score += 5;
+  }
+
+  // 内容长度（0-10分）- 摘要越长通常信息越多
+  const summaryLength = item.summary?.length || 0;
+  if (summaryLength > 200) {
+    score += 10;
+  } else if (summaryLength > 100) {
+    score += 7;
+  } else {
+    score += 4;
+  }
+
+  return score;
+}
+
+// AI评估候选内容（每批5条）
+async function scoreBatchWithAI(items: ContentItem[], category: Category): Promise<ContentScore[]> {
   if (!isAIConfigured() || items.length === 0) {
-    // 无API配置时，按时间排序返回默认评分
     return items.map((item, index) => ({
       id: item.id,
       relevance: 5,
       impact: 5,
       quality: 5,
-      totalScore: 15 - index * 0.1, // 按原始顺序递减
-      reason: '未配置AI评分',
+      totalScore: calculateBaseScore(item) + 15,
+      reason: '未使用AI评分',
     }));
   }
 
   const config = getAIConfig();
   const categoryDesc = CATEGORY_DESCRIPTIONS[category];
 
-  const prompt = `你是一个科技内容评估专家。请评估以下内容对于"${categoryDesc}"领域的价值。
+  const prompt = `评估以下${categoryDesc}相关内容的质量。输出JSON数组，每项包含index(1-5), relevance(1-10), impact(1-10), quality(1-10)。
 
-评估维度（每项1-10分）：
-1. 相关性：与该领域的技术相关程度
-2. 影响力：对业界的影响程度（来自顶级公司/机构、重大突破、广泛关注的议题得分更高）
-3. 质量：内容的深度和信息价值
+内容：
+${items.map((item, i) => `[${i+1}] ${item.title}`).join('\n')}
 
-待评估内容：
-${items.map((item, i) => `[${i+1}] 标题：${item.title}
-摘要：${item.summary.slice(0, 200)}
-来源：${item.sourceName}`).join('\n\n')}
-
-请直接输出JSON数组格式结果：
-[{"index":1,"relevance":8,"impact":7,"quality":8,"reason":"简短理由"}]`;
+输出格式：[{"index":1,"relevance":8,"impact":7,"quality":8}]`;
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 60000);
+    const timeoutId = setTimeout(() => controller.abort(), 30000);
 
     const response = await fetch(`${config.apiBase}/chat/completions`, {
       method: 'POST',
@@ -66,7 +105,7 @@ ${items.map((item, i) => `[${i+1}] 标题：${item.title}
         model: config.model,
         messages: [{ role: 'user', content: prompt }],
         temperature: 0.3,
-        max_tokens: 1000,
+        max_tokens: 300,
       }),
       signal: controller.signal,
     });
@@ -74,29 +113,14 @@ ${items.map((item, i) => `[${i+1}] 标题：${item.title}
     clearTimeout(timeoutId);
 
     if (!response.ok) {
-      console.error(`[Selector] API error: ${response.status}`);
-      return items.map((item, index) => ({
-        id: item.id,
-        relevance: 5,
-        impact: 5,
-        quality: 5,
-        totalScore: 15 - index * 0.1,
-        reason: 'API调用失败',
-      }));
+      throw new Error(`API error: ${response.status}`);
     }
 
     const data = await response.json();
     const content = data.choices?.[0]?.message?.content;
 
     if (!content) {
-      return items.map((item, index) => ({
-        id: item.id,
-        relevance: 5,
-        impact: 5,
-        quality: 5,
-        totalScore: 15 - index * 0.1,
-        reason: '无响应',
-      }));
+      throw new Error('No content');
     }
 
     // 解析JSON
@@ -105,19 +129,27 @@ ${items.map((item, i) => `[${i+1}] 标题：${item.title}
       jsonText = jsonText.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
     }
 
-    const scores = JSON.parse(jsonText);
+    // 提取JSON数组
+    const jsonMatch = jsonText.match(/\[[\s\S]*\]/);
+    if (!jsonMatch) {
+      throw new Error('No JSON array found');
+    }
+
+    const scores = JSON.parse(jsonMatch[0]);
 
     return items.map((item, index) => {
       const score = scores.find((s: { index: number }) => s.index === index + 1);
+      const baseScore = calculateBaseScore(item);
+
       if (score) {
-        const totalScore = score.relevance + score.impact + score.quality;
+        const aiScore = (score.relevance + score.impact + score.quality) / 3;
         return {
           id: item.id,
           relevance: score.relevance,
           impact: score.impact,
           quality: score.quality,
-          totalScore,
-          reason: score.reason || '',
+          totalScore: baseScore + aiScore * 2, // 基础分 + AI加权分
+          reason: 'AI评分',
         };
       }
       return {
@@ -125,19 +157,19 @@ ${items.map((item, i) => `[${i+1}] 标题：${item.title}
         relevance: 5,
         impact: 5,
         quality: 5,
-        totalScore: 15,
-        reason: '未评分',
+        totalScore: baseScore + 15,
+        reason: '评分失败',
       };
     });
   } catch (error) {
-    console.error('[Selector] Error:', error);
-    return items.map((item, index) => ({
+    console.error(`[Selector] AI scoring failed:`, error);
+    return items.map((item) => ({
       id: item.id,
       relevance: 5,
       impact: 5,
       quality: 5,
-      totalScore: 15 - index * 0.1,
-      reason: '评分失败',
+      totalScore: calculateBaseScore(item) + 15,
+      reason: 'AI评分失败',
     }));
   }
 }
@@ -152,30 +184,41 @@ export async function selectTopItems(
     return items;
   }
 
-  console.log(`[Selector] Evaluating ${items.length} items for ${category}...`);
+  console.log(`[Selector] Selecting top ${topN} from ${items.length} items for ${category}...`);
 
-  // 分批评分（每批10条）
-  const batchSize = 10;
+  // 1. 先用基础分数快速筛选候选集（取前50条）
+  const itemsWithBaseScore = items.map(item => ({
+    item,
+    baseScore: calculateBaseScore(item),
+  }));
+
+  itemsWithBaseScore.sort((a, b) => b.baseScore - a.baseScore);
+  const candidates = itemsWithBaseScore.slice(0, Math.min(50, items.length));
+
+  console.log(`[Selector] ${candidates.length} candidates selected for AI evaluation`);
+
+  // 2. 对候选内容进行AI评估
+  const batchSize = 5;
   const allScores: ContentScore[] = [];
 
-  for (let i = 0; i < items.length; i += batchSize) {
-    const batch = items.slice(i, i + batchSize);
-    const scores = await scoreBatch(batch, category);
+  for (let i = 0; i < candidates.length; i += batchSize) {
+    const batch = candidates.slice(i, i + batchSize).map(c => c.item);
+    const scores = await scoreBatchWithAI(batch, category);
     allScores.push(...scores);
 
     // 延迟避免API限流
-    if (i + batchSize < items.length) {
-      await new Promise(resolve => setTimeout(resolve, 500));
+    if (i + batchSize < candidates.length) {
+      await new Promise(resolve => setTimeout(resolve, 300));
     }
   }
 
-  // 按综合评分排序
-  const sortedItems = items
-    .map((item, index) => ({ item, score: allScores[index] }))
+  // 3. 按综合评分排序
+  const sortedItems = candidates
+    .map(({ item }, index) => ({ item, score: allScores[index] }))
     .sort((a, b) => b.score.totalScore - a.score.totalScore)
     .slice(0, topN);
 
-  console.log(`[Selector] Selected top ${topN} items, avg score: ${(
+  console.log(`[Selector] Selected top ${topN}, avg score: ${(
     sortedItems.reduce((sum, s) => sum + s.score.totalScore, 0) / sortedItems.length
   ).toFixed(1)}`);
 
