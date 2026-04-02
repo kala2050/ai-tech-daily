@@ -5,10 +5,13 @@ import { createRSSCollectors } from '@/lib/collectors/rss';
 import { deduplicateByUrl, deduplicateWithinBatch } from '@/lib/processors/deduplicator';
 import { classifyBatch } from '@/lib/processors/classifier';
 import { formatBatch } from '@/lib/processors/formatter';
-import { appendToCategory, updateLatestData, cleanOldHistory, readCategoryData, updateSummary, updateTranslations } from '@/lib/storage';
+import { selectTopItems } from '@/lib/processors/selector';
+import { writeCategoryData, readCategoryData, updateLatestData, cleanOldHistory, updateSummary, updateTranslations } from '@/lib/storage';
 import { CollectResult, Category, Summary, ContentItem } from '@/lib/types';
 import { generateSummary } from './summarizer';
 import { translateItems } from './translator';
+
+const TOP_N = 20; // 每个分类保留的内容数量
 
 export async function runCollection(): Promise<CollectResult> {
   const result: CollectResult = {
@@ -48,23 +51,37 @@ export async function runCollection(): Promise<CollectResult> {
   // 5. 分类
   const classifiedContents = classifyBatch(newContents);
 
-  // 6. 格式化并存储
+  // 6. 格式化、AI筛选、存储
   for (const [category, contents] of classifiedContents) {
     if (contents.length > 0) {
+      // 格式化
       const formattedItems = formatBatch(contents, category as Category);
-      const addedCount = await appendToCategory(category as Category, formattedItems);
-      result.categories[category as Category] = addedCount;
-      result.total += addedCount;
+
+      // 读取现有内容
+      const existingData = await readCategoryData(category as Category);
+      const allItems = [...formattedItems, ...existingData.items];
+
+      // AI筛选Top N
+      console.log(`[Collector] Selecting top ${TOP_N} items for ${category} from ${allItems.length} total...`);
+      const topItems = await selectTopItems(allItems, category as Category, TOP_N);
+
+      // 保存
+      await writeCategoryData(category as Category, {
+        updatedAt: new Date().toISOString(),
+        total: topItems.length,
+        items: topItems,
+      });
+
+      result.categories[category as Category] = formattedItems.length;
+      result.total += formattedItems.length;
     }
   }
 
   // 7. 更新首页数据
   await updateLatestData();
 
-  // 8. 异步翻译（不阻塞响应）
-  translateNewItems().catch(err => {
-    console.error('[Collector] Background translation failed:', err);
-  });
+  // 8. 翻译Top 20内容（阻塞式，确保翻译完成）
+  await translateTopItems();
 
   // 9. 生成 AI 摘要
   let summary: Summary | null = null;
@@ -90,14 +107,14 @@ export async function runCollection(): Promise<CollectResult> {
   // 10. 清理过期历史
   await cleanOldHistory();
 
-  console.log(`[Collect] Completed: ${result.total} new items added${summary ? ', summary generated' : ''}`);
+  console.log(`[Collect] Completed: ${result.total} new items collected, Top ${TOP_N} selected per category${summary ? ', summary generated' : ''}`);
 
   return result;
 }
 
-// 异步翻译新内容
-async function translateNewItems(): Promise<void> {
-  console.log('[Collector] Starting background translation...');
+// 翻译Top 20内容
+async function translateTopItems(): Promise<void> {
+  console.log('[Collector] Translating top items...');
 
   const categories: Category[] = ['ai-tech', 'agent-tech', 'graphics-tech'];
   const allItems: ContentItem[] = [];
@@ -110,7 +127,7 @@ async function translateNewItems(): Promise<void> {
   }
 
   if (allItems.length === 0) {
-    console.log('[Collector] No items need translation');
+    console.log('[Collector] All items already translated');
     return;
   }
 

@@ -86,38 +86,31 @@ export async function writeLatestData(data: LatestData): Promise<void> {
   await fs.writeFile(LATEST_FILE, JSON.stringify(data, null, 2), 'utf-8');
 }
 
-// 追加内容到分类
+// 追加内容到分类（由采集器控制数量，此处不再限制）
 export async function appendToCategory(
   category: Category,
   items: ContentItem[]
 ): Promise<number> {
   const data = await readCategoryData(category);
-  
+
   // 合并新内容（按时间倒序）
   const existingIds = new Set(data.items.map(item => item.id));
   const newItems = items.filter(item => !existingIds.has(item.id));
-  
+
   data.items = [...newItems, ...data.items];
-  
-  // 保留最近 100 条
-  if (data.items.length > 100) {
-    const removed = data.items.slice(100);
-    // 归档移除的内容
-    await archiveItems(removed);
-    data.items = data.items.slice(0, 100);
-  }
-  
+
+  // 不再限制数量，由AI筛选器控制
   data.total = data.items.length;
   data.updatedAt = new Date().toISOString();
-  
+
   await writeCategoryData(category, data);
   return newItems.length;
 }
 
-// 更新首页数据（各分类取最新 5 条）
+// 更新首页数据（各分类取最新 20 条）
 export async function updateLatestData(): Promise<void> {
   const categories: Category[] = ['ai-tech', 'agent-tech', 'graphics-tech'];
-  
+
   const latest: LatestData = {
     updatedAt: new Date().toISOString(),
     categories: {
@@ -126,15 +119,15 @@ export async function updateLatestData(): Promise<void> {
       'graphics-tech': { count: 0, items: [] },
     },
   };
-  
+
   for (const category of categories) {
     const data = await readCategoryData(category);
     latest.categories[category] = {
       count: data.total,
-      items: data.items.slice(0, 5),
+      items: data.items.slice(0, 20), // 显示全部20条
     };
   }
-  
+
   await writeLatestData(latest);
 }
 

@@ -21,20 +21,26 @@ export default function CategoryCard({ title, category, items, count }: Category
         </div>
       </div>
 
-      {/* Content List */}
-      <div className="p-4 space-y-3">
+      {/* Content List - 显示更多内容，包含摘要 */}
+      <div className="p-4 space-y-3 max-h-[600px] overflow-y-auto">
         {items.length > 0 ? (
-          items.slice(0, 5).map(item => (
-            <div key={item.id} className="group">
+          items.slice(0, 20).map(item => (
+            <div key={item.id} className="group p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <a
                 href={item.sourceUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-sm text-gray-700 hover:text-blue-600 line-clamp-2"
+                className="block text-sm font-medium text-gray-900 hover:text-blue-600 line-clamp-2"
               >
                 {item.titleZh || item.title}
               </a>
-              <div className="mt-1 text-xs text-gray-500">
+              {/* 显示摘要 */}
+              {(item.summaryZh || item.summary) && (
+                <p className="mt-1 text-xs text-gray-500 line-clamp-2">
+                  {item.summaryZh || item.summary}
+                </p>
+              )}
+              <div className="mt-1 text-xs text-gray-400">
                 {item.sourceName} · {formatDate(item.publishedAt)}
               </div>
             </div>
@@ -52,7 +58,7 @@ export default function CategoryCard({ title, category, items, count }: Category
           href={`/${category}`}
           className="block text-center text-sm text-blue-600 hover:text-blue-700 font-medium"
         >
-          查看更多 →
+          查看详情 →
         </Link>
       </div>
     </div>
