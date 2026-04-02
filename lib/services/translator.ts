@@ -6,6 +6,7 @@ import { getAIConfig, isAIConfigured } from '@/lib/config/ai-providers';
 // 翻译单条内容
 export async function translateItem(item: ContentItem): Promise<{ titleZh: string; summaryZh: string } | null> {
   if (!isAIConfigured()) {
+    console.error('[Translator] AI_API_KEY not configured');
     return null;
   }
 
@@ -17,16 +18,13 @@ export async function translateItem(item: ContentItem): Promise<{ titleZh: strin
     return null;
   }
 
-  const prompt = `请将以下英文内容翻译成中文，保持专业术语的准确性。
+  const prompt = `请将以下英文内容翻译成中文，保持专业术语的准确性。直接输出JSON格式结果。
 
-标题：
-${item.title}
+标题：${item.title}
 
-摘要：
-${item.summary}
+摘要：${item.summary}
 
-请直接输出翻译结果，格式如下（JSON格式）：
-{"titleZh":"翻译后的标题","summaryZh":"翻译后的摘要"}`;
+输出格式：{"titleZh":"中文标题","summaryZh":"中文摘要"}`;
 
   try {
     const response = await fetch(`${config.apiBase}/chat/completions`, {
@@ -44,14 +42,17 @@ ${item.summary}
     });
 
     if (!response.ok) {
-      throw new Error(`Translation API error: ${response.status}`);
+      const errorText = await response.text();
+      console.error(`[Translator] API error ${response.status}: ${errorText}`);
+      return null;
     }
 
     const data = await response.json();
     const content = data.choices?.[0]?.message?.content;
 
     if (!content) {
-      throw new Error('Empty translation response');
+      console.error('[Translator] Empty response from API');
+      return null;
     }
 
     // 解析 JSON
@@ -66,7 +67,7 @@ ${item.summary}
       summaryZh: parsed.summaryZh || item.summary,
     };
   } catch (error) {
-    console.error(`[Translator] Failed to translate item ${item.id}:`, error);
+    console.error(`[Translator] Error for "${item.title.substring(0, 50)}...":`, error);
     return null;
   }
 }
@@ -91,22 +92,38 @@ export async function translateItems(
 
   console.log(`[Translator] ${itemsToTranslate.length} items need translation out of ${items.length}`);
 
-  for (let i = 0; i < itemsToTranslate.length; i++) {
+  // 限制每次最多翻译 50 条，避免超时
+  const maxItems = Math.min(itemsToTranslate.length, 50);
+  console.log(`[Translator] Translating first ${maxItems} items...`);
+
+  let successCount = 0;
+  let failCount = 0;
+
+  for (let i = 0; i < maxItems; i++) {
     const item = itemsToTranslate[i];
+
+    // 每处理 10 条打印一次进度
+    if (i > 0 && i % 10 === 0) {
+      console.log(`[Translator] Progress: ${i}/${maxItems}, success: ${successCount}, fail: ${failCount}`);
+    }
+
     const result = await translateItem(item);
 
     if (result) {
       results.set(item.id, result);
+      successCount++;
+    } else {
+      failCount++;
     }
 
-    onProgress?.(i + 1, itemsToTranslate.length);
+    onProgress?.(i + 1, maxItems);
 
-    // 延迟 500ms 避免 API 限流
-    if (i < itemsToTranslate.length - 1) {
-      await new Promise(resolve => setTimeout(resolve, 500));
+    // 延迟 300ms 避免 API 限流
+    if (i < maxItems - 1) {
+      await new Promise(resolve => setTimeout(resolve, 300));
     }
   }
 
-  console.log(`[Translator] Completed: ${results.size} items translated`);
+  console.log(`[Translator] Completed: ${results.size} items translated, ${failCount} failed`);
   return results;
 }
