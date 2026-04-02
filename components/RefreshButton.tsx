@@ -19,7 +19,7 @@ export default function RefreshButton({ onRefreshStart, onRefreshEnd }: RefreshB
     onRefreshStart?.();
 
     try {
-      const response = await fetch('/api/admin/collect?secret=admin');
+      const response = await fetch('/api/admin/collect?secret=kala2024secret');
       const data = await response.json();
 
       if (!response.ok) {
