@@ -10,7 +10,7 @@ export interface AIProviderConfig {
 const PROVIDER_CONFIGS: Record<string, AIProviderConfig> = {
   bailian: {
     name: '阿里百炼',
-    defaultModel: 'qwen-turbo',
+    defaultModel: 'qwen3.5-plus',
     apiBase: 'https://dashscope.aliyuncs.com/compatible-mode/v1',
   },
   openai: {
