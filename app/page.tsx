@@ -4,7 +4,9 @@ import SummaryCard from '@/components/SummaryCard';
 import RefreshButton from '@/components/RefreshButton';
 import { LatestData } from '@/lib/types';
 
-export const revalidate = 3600; // ISR: 每小时重新验证
+// 禁用静态生成，使用动态渲染
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 const CATEGORY_INFO = {
   'ai-tech': { title: 'AI 技术', description: '大模型、深度学习、NLP 等' },

@@ -3,7 +3,9 @@
 import { readCategoryData } from '@/lib/storage';
 import ContentList from '@/components/ContentList';
 
-export const revalidate = 3600;
+// 禁用静态生成，使用动态渲染
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export default async function AgentTechPage() {
   const data = await readCategoryData('agent-tech');
