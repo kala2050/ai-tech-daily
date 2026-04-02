@@ -27,6 +27,10 @@ export async function translateItem(item: ContentItem): Promise<{ titleZh: strin
 输出格式：{"titleZh":"中文标题","summaryZh":"中文摘要"}`;
 
   try {
+    // 创建超时控制器（60秒超时）
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 60000);
+
     const response = await fetch(`${config.apiBase}/chat/completions`, {
       method: 'POST',
       headers: {
@@ -39,7 +43,10 @@ export async function translateItem(item: ContentItem): Promise<{ titleZh: strin
         temperature: 0.3,
         max_tokens: 500,
       }),
+      signal: controller.signal,
     });
+
+    clearTimeout(timeoutId);
 
     if (!response.ok) {
       const errorText = await response.text();
