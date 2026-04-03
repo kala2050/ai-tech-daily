@@ -27,16 +27,32 @@ export function formatContent(
 function extractSummary(content: RawContent): string {
   // 优先使用已有摘要
   if (content.summary && content.summary.length > 0) {
-    return content.summary.slice(0, 300).trim();
+    return stripHtml(content.summary).slice(0, 300).trim();
   }
-  
+
   // 使用正文截取
   if (content.content && content.content.length > 0) {
-    return content.content.slice(0, 200).trim();
+    return stripHtml(content.content).slice(0, 200).trim();
   }
-  
+
   // 使用标题
   return content.title;
+}
+
+// 移除HTML标签
+function stripHtml(html: string): string {
+  // 移除HTML标签
+  let text = html.replace(/<[^>]*>/g, '');
+  // 解码常见HTML实体
+  text = text
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'");
+  // 移除多余空白
+  return text.replace(/\s+/g, ' ').trim();
 }
 
 // 批量格式化
